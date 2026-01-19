@@ -1,0 +1,4757 @@
+============================================================
+DT-3 SIMULATION LOG
+START TIME: 2026-01-06 21:31:07.172990
+============================================================
+
+[SEQ 0] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.800
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 1] [LAYER INIT]
+CMD      : ;HEADER_VERSION:0.1
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.920
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 2] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.968
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 3] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.987
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 4] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 5] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 6] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 7] [LAYER INIT]
+CMD      : ;EXTRUDER_TRAIN.0.INITIAL_TEMPERATURE:215
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 8] [LAYER INIT]
+CMD      : ;EXTRUDER_TRAIN.0.NOZZLE.DIAMETER:0.4
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 9] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 10] [LAYER INIT]
+CMD      : ;BUILD_PLATE.INITIAL_TEMPERATURE:60
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 11] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 12] [LAYER INIT]
+CMD      : ;PRINT.GROUPS:1
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 13] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MIN.X:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 14] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MIN.Y:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 15] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 16] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 17] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MAX.Y:0.01
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 18] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 19] [LAYER INIT]
+CMD      : ;SLICE_UUID:dabf7bf9-0ae4-46bc-894d-71c377825661
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 20] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 21] [LAYER INIT]
+CMD      : 
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 22] [LAYER INIT]
+CMD      : ;Generated with Cura_SteamEngine 5.11.0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 23] [LAYER INIT]
+CMD      : T0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 24] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 25] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 26] [LAYER INIT]
+CMD      : G92 E0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 27] [LAYER INIT]
+CMD      : M190 S60
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 28] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 29] [LAYER INIT]
+CMD      : M109 S215
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 30] [LAYER INIT]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 31] [LAYER INIT]
+CMD      : G0 Z20.001
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 32] [LAYER INIT]
+CMD      : G1 F1500 E-6.5
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 33] [LAYER INIT]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 34] [LAYER 0]
+CMD      : ;LAYER:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 35] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 36] [LAYER 0]
+CMD      : G0 F3600 X158.617 Y115.55 Z0.3
+TRUST    : acc_cmd=0.048 | acc_exec=0.000 | trust=0.960
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 37] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.959
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 38] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.968
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 39] [LAYER 0]
+CMD      : G1 F1800 X159.39 Y114.552 E0.02375
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.693
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 40] [LAYER 0]
+CMD      : G1 X160.743 Y113.46 E0.05645
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.621
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 41] [LAYER 0]
+CMD      : G1 X162.722 Y112.474 E0.09804
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.646
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 42] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.713
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 43] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.787
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 44] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.851
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 45] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.901
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 46] [LAYER 0]
+CMD      : G1 X195.448 Y114.39 E0.72462
+TRUST    : acc_cmd=0.008 | acc_exec=0.000 | trust=0.929
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 47] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.952
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 48] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.969
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 49] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.981
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 50] [LAYER 0]
+CMD      : G1 X197.8 Y145.622 E1.32403
+TRUST    : acc_cmd=0.008 | acc_exec=0.000 | trust=0.981
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 51] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.986
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 52] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.990
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 53] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 54] [LAYER 0]
+CMD      : G1 X194.257 Y151.54 E1.45819
+TRUST    : acc_cmd=0.002 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 55] [LAYER 0]
+CMD      : G1 X192.278 Y152.526 E1.49978
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 56] [LAYER 0]
+CMD      : G1 X190.754 Y152.748 E1.52875
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 57] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 58] [LAYER 0]
+CMD      : G1 X162.282 Y152.361 E2.06522
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 59] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 60] [LAYER 0]
+CMD      : G1 X159.553 Y150.622 E2.12626
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 61] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 62] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 63] [LAYER 0]
+CMD      : G1 X157.252 Y145.754 E2.22969
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 64] [LAYER 0]
+CMD      : G1 X157.2 Y119.378 E2.72583
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 65] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 66] [LAYER 0]
+CMD      : G1 X158.617 Y115.55 E2.80354
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 67] [LAYER 0]
+CMD      : G0 F3600 X158.933 Y115.795
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 68] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 69] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 70] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 71] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 72] [LAYER 0]
+CMD      : G1 X190.581 Y112.6 E3.41905
+TRUST    : acc_cmd=0.008 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 73] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 74] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 75] [LAYER 0]
+CMD      : G1 X195.167 Y114.678 E3.51543
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 76] [LAYER 0]
+CMD      : G1 X196.201 Y115.96 E3.54641
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 77] [LAYER 0]
+CMD      : G1 X197.139 Y117.842 E3.58597
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 78] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 79] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 80] [LAYER 0]
+CMD      : G1 X196.998 Y147.538 E4.14562
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 81] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 82] [LAYER 0]
+CMD      : G1 X195.322 Y150.167 E4.20443
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 83] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 84] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 85] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 86] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 87] [LAYER 0]
+CMD      : G1 X162.424 Y151.982 E4.83542
+TRUST    : acc_cmd=0.008 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 88] [LAYER 0]
+CMD      : G1 X160.743 Y151.046 E4.87161
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 89] [LAYER 0]
+CMD      : G1 X159.837 Y150.336 E4.89327
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 90] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 91] [LAYER 0]
+CMD      : G1 X157.861 Y147.142 E4.96433
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 92] [LAYER 0]
+CMD      : G1 X157.648 Y145.696 E4.99182
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 93] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 94] [LAYER 0]
+CMD      : G1 X158.002 Y117.462 E5.52369
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 95] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 96] [LAYER 0]
+CMD      : G0 F3600 X159.249 Y116.04
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 97] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 98] [LAYER 0]
+CMD      : G1 X161.177 Y114.138 E5.61089
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 99] [LAYER 0]
+CMD      : G1 X162.962 Y113.248 E5.64841
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 100] [LAYER 0]
+CMD      : G1 X164.362 Y113.044 E5.67502
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 101] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 102] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 103] [LAYER 0]
+CMD      : G1 X193.96 Y114.249 E6.23673
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 104] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 105] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 106] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 107] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 108] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 109] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 110] [LAYER 0]
+CMD      : G1 X195.751 Y148.96 E6.91385
+TRUST    : acc_cmd=0.009 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 111] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 112] [LAYER 0]
+CMD      : G1 X193.823 Y150.862 E6.96514
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 113] [LAYER 0]
+CMD      : G1 X192.038 Y151.752 E7.00266
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 114] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 115] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 116] [LAYER 0]
+CMD      : G1 X162.567 Y151.603 E7.55811
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 117] [LAYER 0]
+CMD      : G1 X160.99 Y150.731 E7.59201
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 118] [LAYER 0]
+CMD      : G1 X160.121 Y150.05 E7.61278
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 119] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 120] [LAYER 0]
+CMD      : G1 X158.248 Y147.024 E7.68011
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 121] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 122] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 123] [LAYER 0]
+CMD      : G1 X158.382 Y117.603 E8.23455
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 124] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 125] [LAYER 0]
+CMD      : G0 F3600 X159.599 Y116.234
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 126] [LAYER 0]
+CMD      : G1 F1800 X160.251 Y115.398 E8.28811
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 127] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 128] [LAYER 0]
+CMD      : G1 X163.082 Y113.635 E8.35121
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 129] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 130] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 131] [LAYER 0]
+CMD      : G1 X192.257 Y113.762 E8.90097
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 132] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 133] [LAYER 0]
+CMD      : G1 X194.602 Y115.251 E8.95337
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 134] [LAYER 0]
+CMD      : G1 X195.525 Y116.397 E8.98105
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 135] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 136] [LAYER 0]
+CMD      : G1 X196.56 Y119.42 E9.0419
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 137] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 138] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 139] [LAYER 0]
+CMD      : G1 X195.401 Y148.766 E9.59868
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 140] [LAYER 0]
+CMD      : G1 X194.749 Y149.602 E9.61862
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 141] [LAYER 0]
+CMD      : G1 X193.603 Y150.525 E9.6463
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 142] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 143] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 144] [LAYER 0]
+CMD      : G1 X164.418 Y151.6 E10.19928
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 145] [LAYER 0]
+CMD      : G1 X162.709 Y151.224 E10.23219
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 146] [LAYER 0]
+CMD      : G1 X161.237 Y150.416 E10.26378
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 147] [LAYER 0]
+CMD      : G1 X160.405 Y149.764 E10.28366
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 148] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 149] [LAYER 0]
+CMD      : G1 X158.635 Y146.903 E10.34731
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 150] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 151] [LAYER 0]
+CMD      : G1 X158.4 Y119.503 E10.86299
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 152] [LAYER 0]
+CMD      : G1 X158.762 Y117.743 E10.89679
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 153] [LAYER 0]
+CMD      : G1 X159.599 Y116.234 E10.92925
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 154] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 155] [LAYER 0]
+CMD      : G1 F1800 X160.535 Y115.683 E10.94708
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 156] [LAYER 0]
+CMD      : G1 X161.617 Y114.812 E10.97321
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 157] [LAYER 0]
+CMD      : G1 X163.202 Y114.022 E11.00652
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 158] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 159] [LAYER 0]
+CMD      : G1 X190.455 Y113.8 E11.51942
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 160] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 161] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 162] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 163] [LAYER 0]
+CMD      : G1 X195.188 Y116.617 E11.62659
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 164] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 165] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 166] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 167] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 168] [LAYER 0]
+CMD      : G1 X195.051 Y148.572 E12.23602
+TRUST    : acc_cmd=0.008 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 169] [LAYER 0]
+CMD      : G1 X194.465 Y149.317 E12.25385
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 170] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 171] [LAYER 0]
+CMD      : G1 X191.798 Y150.978 E12.31329
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 172] [LAYER 0]
+CMD      : G1 X190.522 Y151.164 E12.33755
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 173] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 174] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 175] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 176] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 177] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 178] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 179] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 180] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 181] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 182] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 183] [LAYER 0]
+CMD      : G0 F3600 X160.299 Y116.622
+TRUST    : acc_cmd=0.011 | acc_exec=0.000 | trust=0.990
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 184] [LAYER 0]
+CMD      : G1 F1800 X160.82 Y115.968 E13.55859
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.705
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 185] [LAYER 0]
+CMD      : G1 X161.835 Y115.151 E13.5831
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.627
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 186] [LAYER 0]
+CMD      : G1 X163.323 Y114.409 E13.61438
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.650
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 187] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.715
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 188] [LAYER 0]
+CMD      : G1 X190.413 Y114.2 E14.1242
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.783
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 189] [LAYER 0]
+CMD      : G1 X191.977 Y114.522 E14.15423
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.846
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 190] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.897
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 191] [LAYER 0]
+CMD      : G1 X194.032 Y115.82 E14.2001
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.932
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 192] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.957
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 193] [LAYER 0]
+CMD      : G1 X195.591 Y118.323 E14.25588
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.972
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 194] [LAYER 0]
+CMD      : G1 X195.768 Y119.536 E14.27894
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.982
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 195] [LAYER 0]
+CMD      : G1 X195.8 Y145.413 E14.7657
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.983
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 196] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 197] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 198] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 199] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 200] [LAYER 0]
+CMD      : G1 X191.677 Y150.591 E14.89739
+TRUST    : acc_cmd=0.002 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 201] [LAYER 0]
+CMD      : G1 X190.464 Y150.768 E14.92045
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 202] [LAYER 0]
+CMD      : G1 X164.508 Y150.8 E15.4087
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 203] [LAYER 0]
+CMD      : G1 X162.989 Y150.466 E15.43795
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 204] [LAYER 0]
+CMD      : G1 X161.731 Y149.786 E15.46485
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 205] [LAYER 0]
+CMD      : G1 X160.97 Y149.19 E15.48303
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 206] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 207] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 208] [LAYER 0]
+CMD      : G1 X159.232 Y145.464 E15.56204
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 209] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 210] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 211] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 212] [LAYER 0]
+CMD      : G0 F3600 X160.612 Y116.871
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 213] [LAYER 0]
+CMD      : G1 F1800 X161.104 Y116.254 E16.12382
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.708
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 214] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.630
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 215] [LAYER 0]
+CMD      : G1 X163.443 Y114.796 E16.17596
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.652
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 216] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.716
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 217] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.789
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 218] [LAYER 0]
+CMD      : G1 X191.838 Y114.902 E16.7109
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.847
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 219] [LAYER 0]
+CMD      : G1 X193.129 Y115.612 E16.73861
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.895
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 220] [LAYER 0]
+CMD      : G1 X193.746 Y116.104 E16.75345
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.931
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 221] [LAYER 0]
+CMD      : G1 X194.512 Y117.055 E16.77642
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.956
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 222] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.972
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 223] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.983
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 224] [LAYER 0]
+CMD      : G1 X195.4 Y145.371 E17.31236
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.983
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 225] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.987
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 226] [LAYER 0]
+CMD      : G1 X194.388 Y148.129 E17.36825
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 227] [LAYER 0]
+CMD      : G1 X193.896 Y148.746 E17.38309
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 228] [LAYER 0]
+CMD      : G1 X192.945 Y149.512 E17.40606
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 229] [LAYER 0]
+CMD      : G1 X191.557 Y150.204 E17.43524
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 230] [LAYER 0]
+CMD      : G1 X190.406 Y150.372 E17.45712
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 231] [LAYER 0]
+CMD      : G1 X164.553 Y150.4 E17.94343
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 232] [LAYER 0]
+CMD      : G1 X163.13 Y150.087 E17.97083
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 233] [LAYER 0]
+CMD      : G1 X161.978 Y149.471 E17.99541
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 234] [LAYER 0]
+CMD      : G1 X161.254 Y148.904 E18.0127
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 235] [LAYER 0]
+CMD      : G1 X160.493 Y147.957 E18.03556
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 236] [LAYER 0]
+CMD      : G1 X159.796 Y146.549 E18.06511
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 237] [LAYER 0]
+CMD      : G1 X159.628 Y145.406 E18.08684
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 238] [LAYER 0]
+CMD      : G1 X159.6 Y119.629 E18.57172
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 239] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 240] [LAYER 0]
+CMD      : G1 X160.612 Y116.871 E18.62761
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 241] [LAYER 0]
+CMD      : G0 F3600 X160.925 Y117.12
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 242] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 243] [LAYER 0]
+CMD      : G1 X162.271 Y115.827 E18.66292
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 244] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 245] [LAYER 0]
+CMD      : G1 X164.652 Y115.024 E18.71078
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 246] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 247] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 248] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 249] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 250] [LAYER 0]
+CMD      : G1 X194.173 Y117.271 E19.2807
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 251] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 252] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 253] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 254] [LAYER 0]
+CMD      : G1 X194.718 Y146.7 E19.83788
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 255] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 256] [LAYER 0]
+CMD      : G1 X193.61 Y148.463 E19.87719
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 257] [LAYER 0]
+CMD      : G1 X192.729 Y149.173 E19.89847
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 258] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 259] [LAYER 0]
+CMD      : G1 X190.348 Y149.976 E19.94633
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 260] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 261] [LAYER 0]
+CMD      : G1 X163.27 Y149.708 E20.45628
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 262] [LAYER 0]
+CMD      : G1 X162.167 Y149.118 E20.47981
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 263] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 264] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 265] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 266] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 267] [LAYER 0]
+CMD      : G1 X160 Y119.671 E21.04719
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 268] [LAYER 0]
+CMD      : G1 X160.282 Y118.3 E21.07352
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 269] [LAYER 0]
+CMD      : G1 X160.925 Y117.12 E21.09879
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 270] [LAYER 0]
+CMD      : G0 F3600 X161.238 Y117.369
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 271] [LAYER 0]
+CMD      : G1 F1800 X161.674 Y116.822 E21.11195
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 272] [LAYER 0]
+CMD      : G1 X162.491 Y116.164 E21.13168
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 273] [LAYER 0]
+CMD      : G1 X163.683 Y115.57 E21.15674
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 274] [LAYER 0]
+CMD      : G1 X164.71 Y115.42 E21.17626
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 275] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 276] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 277] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 278] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 279] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 280] [LAYER 0]
+CMD      : G1 X194.43 Y118.683 E21.76265
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 281] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 282] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 283] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 284] [LAYER 0]
+CMD      : G1 X193.762 Y147.631 E22.31061
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 285] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 286] [LAYER 0]
+CMD      : G1 X192.509 Y148.836 E22.34351
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 287] [LAYER 0]
+CMD      : G1 X191.317 Y149.43 E22.36856
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 288] [LAYER 0]
+CMD      : G1 X190.29 Y149.58 E22.38808
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 289] [LAYER 0]
+CMD      : G1 X164.643 Y149.6 E22.87052
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 290] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 291] [LAYER 0]
+CMD      : G1 X162.356 Y148.765 E22.91675
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 292] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 293] [LAYER 0]
+CMD      : G1 X161.165 Y147.515 E22.9494
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 294] [LAYER 0]
+CMD      : G1 X160.57 Y146.313 E22.97463
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 295] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 296] [LAYER 0]
+CMD      : G1 X160.4 Y119.713 E23.4752
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 297] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 298] [LAYER 0]
+CMD      : G1 X161.238 Y117.369 E23.52253
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 299] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 300] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 301] [LAYER 0]
+CMD      : G1 X162.711 Y116.501 E23.55167
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 302] [LAYER 0]
+CMD      : G1 X163.803 Y115.957 E23.57462
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 303] [LAYER 0]
+CMD      : G1 X164.768 Y115.816 E23.59297
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 304] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 305] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 306] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 307] [LAYER 0]
+CMD      : G1 X192.891 Y116.956 E24.12748
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 308] [LAYER 0]
+CMD      : G1 X193.499 Y117.711 E24.14572
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 309] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 310] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 311] [LAYER 0]
+CMD      : G1 X194.2 Y145.246 E24.66627
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 312] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 313] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 314] [LAYER 0]
+CMD      : G1 X193.044 Y147.891 E24.72153
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 315] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 316] [LAYER 0]
+CMD      : G1 X191.197 Y149.043 E24.76272
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 317] [LAYER 0]
+CMD      : G1 X190.232 Y149.184 E24.78106
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 318] [LAYER 0]
+CMD      : G1 X164.688 Y149.2 E25.26156
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 319] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 320] [LAYER 0]
+CMD      : G1 X162.578 Y148.43 E25.30421
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 321] [LAYER 0]
+CMD      : G1 X162.111 Y148.052 E25.31551
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 322] [LAYER 0]
+CMD      : G1 X161.501 Y147.294 E25.33381
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 323] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 324] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 325] [LAYER 0]
+CMD      : G1 X160.8 Y119.754 E25.85444
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 326] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 327] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 328] [LAYER 0]
+CMD      : G0 F3600 X161.905 Y117.806
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 329] [LAYER 0]
+CMD      : G1 F1800 X162.207 Y117.421 E25.908
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 330] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 331] [LAYER 0]
+CMD      : G1 X163.923 Y116.344 E25.94633
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 332] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 333] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 334] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 335] [LAYER 0]
+CMD      : G1 X192.194 Y116.905 E26.481
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 336] [LAYER 0]
+CMD      : G1 X192.579 Y117.207 E26.4902
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 337] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 338] [LAYER 0]
+CMD      : G1 X193.656 Y118.923 E26.52853
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 339] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 340] [LAYER 0]
+CMD      : G1 X193.8 Y145.205 E27.02309
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 341] [LAYER 0]
+CMD      : G1 X193.578 Y146.286 E27.04385
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 342] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 343] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 344] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 345] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 346] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 347] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 348] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 349] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 350] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 351] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 352] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 353] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 354] [LAYER 0]
+CMD      : G1 X161.2 Y119.795 E28.18756
+TRUST    : acc_cmd=0.010 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 355] [LAYER 0]
+CMD      : G1 X161.422 Y118.714 E28.20831
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 356] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 357] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 358] [LAYER 0]
+CMD      : G1 F1800 X162.458 Y117.733 E28.23497
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 359] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 360] [LAYER 0]
+CMD      : G1 X164.043 Y116.731 E28.27045
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 361] [LAYER 0]
+CMD      : G1 X164.884 Y116.608 E28.28644
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 362] [LAYER 0]
+CMD      : G1 X190.164 Y116.6 E28.76197
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 363] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 364] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 365] [LAYER 0]
+CMD      : G1 X192.267 Y117.458 E28.80533
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 366] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 367] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 368] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 369] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 370] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 371] [LAYER 0]
+CMD      : G1 X192.774 Y146.955 E29.36838
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 372] [LAYER 0]
+CMD      : G1 X192.542 Y147.267 E29.37569
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 373] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 374] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 375] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 376] [LAYER 0]
+CMD      : G1 X164.778 Y148.4 E29.90378
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 377] [LAYER 0]
+CMD      : G1 X163.83 Y148.192 E29.92204
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 378] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 379] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 380] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 381] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 382] [LAYER 0]
+CMD      : G1 X161.608 Y145.116 E29.99758
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 383] [LAYER 0]
+CMD      : G1 X161.6 Y119.836 E30.47311
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 384] [LAYER 0]
+CMD      : G1 X161.802 Y118.85 E30.49204
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 385] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 386] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 387] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 388] [LAYER 0]
+CMD      : G1 X163.367 Y117.514 E30.5293
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 389] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 390] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 391] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 392] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 393] [LAYER 0]
+CMD      : G1 X191.768 Y117.58 E31.06765
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 394] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 395] [LAYER 0]
+CMD      : G1 X192.486 Y118.367 E31.08779
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 396] [LAYER 0]
+CMD      : G1 X192.882 Y119.163 E31.10452
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 397] [LAYER 0]
+CMD      : G1 X192.996 Y119.942 E31.11933
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 398] [LAYER 0]
+CMD      : G1 X193 Y145.123 E31.593
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 399] [LAYER 0]
+CMD      : G1 X192.818 Y146.013 E31.61008
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 400] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 401] [LAYER 0]
+CMD      : G1 X192.251 Y146.988 E31.63136
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 402] [LAYER 0]
+CMD      : G1 X191.633 Y147.486 E31.64629
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 403] [LAYER 0]
+CMD      : G1 X190.837 Y147.882 E31.66301
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 404] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 405] [LAYER 0]
+CMD      : G1 X164.823 Y148 E32.1525
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 406] [LAYER 0]
+CMD      : G1 X163.97 Y147.813 E32.16893
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 407] [LAYER 0]
+CMD      : G1 X163.145 Y147.371 E32.18654
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 408] [LAYER 0]
+CMD      : G1 X163.022 Y147.268 E32.18955
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 409] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 410] [LAYER 0]
+CMD      : G1 X162.118 Y145.837 E32.22158
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 411] [LAYER 0]
+CMD      : G1 X162.004 Y145.058 E32.23639
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 412] [LAYER 0]
+CMD      : G1 X162 Y119.877 E32.71006
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 413] [LAYER 0]
+CMD      : G1 X162.182 Y118.987 E32.72715
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 414] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 415] [LAYER 0]
+CMD      : G0 F3600 X162.934 Y118.418
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 416] [LAYER 0]
+CMD      : G1 F1800 X163.037 Y118.293 E32.74625
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 417] [LAYER 0]
+CMD      : G1 X163.583 Y117.853 E32.75944
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 418] [LAYER 0]
+CMD      : G1 X164.283 Y117.505 E32.77414
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 419] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 420] [LAYER 0]
+CMD      : G1 X190.082 Y117.4 E33.25958
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 421] [LAYER 0]
+CMD      : G1 X190.878 Y117.563 E33.27486
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 422] [LAYER 0]
+CMD      : G1 X191.582 Y117.934 E33.28983
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 423] [LAYER 0]
+CMD      : G1 X191.707 Y118.037 E33.29288
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 424] [LAYER 0]
+CMD      : G1 X192.147 Y118.583 E33.30607
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 425] [LAYER 0]
+CMD      : G1 X192.495 Y119.283 E33.32077
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 426] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 427] [LAYER 0]
+CMD      : G1 X192.6 Y145.082 E33.80621
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 428] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 429] [LAYER 0]
+CMD      : G1 X192.066 Y146.582 E33.83646
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 430] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 431] [LAYER 0]
+CMD      : G1 X191.417 Y147.147 E33.8527
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 432] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 433] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 434] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 435] [LAYER 0]
+CMD      : G1 X164.11 Y147.434 E34.36838
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 436] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 437] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 438] [LAYER 0]
+CMD      : G1 X162.505 Y145.717 E34.41413
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 439] [LAYER 0]
+CMD      : G1 X162.4 Y145 E34.42776
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 440] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 441] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 442] [LAYER 0]
+CMD      : G1 X162.934 Y118.418 E34.92982
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 443] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 444] [LAYER 0]
+CMD      : G1 F1800 X163.799 Y118.192 E34.94217
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 445] [LAYER 0]
+CMD      : G1 X164.405 Y117.891 E34.9549
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 446] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 447] [LAYER 0]
+CMD      : G1 X190.041 Y117.8 E35.43725
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 448] [LAYER 0]
+CMD      : G1 X190.743 Y117.944 E35.45073
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 449] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 450] [LAYER 0]
+CMD      : G1 X191.808 Y118.799 E35.47696
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 451] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 452] [LAYER 0]
+CMD      : G1 X192.2 Y120 E35.50101
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 453] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 454] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 455] [LAYER 0]
+CMD      : G1 X191.712 Y146.396 E35.99941
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 456] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 457] [LAYER 0]
+CMD      : G1 X190.595 Y147.109 E36.02449
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 458] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 459] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 460] [LAYER 0]
+CMD      : G1 X164.247 Y147.054 E36.52054
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 461] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 462] [LAYER 0]
+CMD      : G1 X163.192 Y146.201 E36.54658
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 463] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 464] [LAYER 0]
+CMD      : G1 X162.8 Y145 E36.57063
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 465] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 466] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 467] [LAYER 0]
+CMD      : G1 X163.288 Y118.604 E37.06903
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 468] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 469] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 470] [LAYER 0]
+CMD      : G1 X164.526 Y118.277 E37.08969
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 471] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 472] [LAYER 0]
+CMD      : G1 X190 Y118.2 E37.56899
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 473] [LAYER 0]
+CMD      : G1 X190.606 Y118.324 E37.58062
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 474] [LAYER 0]
+CMD      : G1 X191.138 Y118.605 E37.59194
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 475] [LAYER 0]
+CMD      : G1 X191.45 Y118.977 E37.60107
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 476] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 477] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 478] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 479] [LAYER 0]
+CMD      : G1 X191.676 Y145.606 E38.10354
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 480] [LAYER 0]
+CMD      : G1 X191.395 Y146.138 E38.11486
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 481] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 482] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 483] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 484] [LAYER 0]
+CMD      : G1 X164.958 Y146.8 E38.61561
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 485] [LAYER 0]
+CMD      : G1 X164.384 Y146.674 E38.62666
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 486] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 487] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 488] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 489] [LAYER 0]
+CMD      : G1 X163.2 Y145 E38.66749
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 490] [LAYER 0]
+CMD      : G1 X163.2 Y120 E39.13776
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 491] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 492] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 493] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 494] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 495] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 496] [LAYER 0]
+CMD      : G1 X165 Y118.6 E39.18367
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 497] [LAYER 0]
+CMD      : G1 X190 Y118.6 E39.65393
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 498] [LAYER 0]
+CMD      : G1 X190.419 Y118.678 E39.66195
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 499] [LAYER 0]
+CMD      : G1 X190.883 Y118.923 E39.67182
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 500] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 501] [LAYER 0]
+CMD      : G1 X191.338 Y119.649 E39.68808
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 502] [LAYER 0]
+CMD      : G1 X191.4 Y120 E39.69478
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 503] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 504] [LAYER 0]
+CMD      : G1 X191.322 Y145.419 E40.17306
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 505] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 506] [LAYER 0]
+CMD      : G1 X190.845 Y146.092 E40.18881
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 507] [LAYER 0]
+CMD      : G1 X190.351 Y146.338 E40.19919
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 508] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 509] [LAYER 0]
+CMD      : G1 X164.958 Y146.4 E40.67695
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 510] [LAYER 0]
+CMD      : G1 X164.477 Y146.285 E40.68625
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 511] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 512] [LAYER 0]
+CMD      : G1 X163.908 Y145.845 E40.69994
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 513] [LAYER 0]
+CMD      : G1 X163.662 Y145.351 E40.71032
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 514] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 515] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 516] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 517] [LAYER 0]
+CMD      : G1 X163.923 Y119.117 E41.20518
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 518] [LAYER 0]
+CMD      : G0 F3600 X164.207 Y119.399
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 519] [LAYER 0]
+CMD      : G1 F1800 X164.07 Y119.662 E41.21076
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 520] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 521] [LAYER 0]
+CMD      : G1 X164 Y145 E41.68751
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 522] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 523] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 524] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 525] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 526] [LAYER 0]
+CMD      : G1 X165 Y146 E41.71667
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 527] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 528] [LAYER 0]
+CMD      : G1 X190.273 Y145.946 E42.19217
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 529] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 530] [LAYER 0]
+CMD      : G1 X190.793 Y145.601 E42.20402
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 531] [LAYER 0]
+CMD      : G1 X190.93 Y145.338 E42.20959
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 532] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 533] [LAYER 0]
+CMD      : G1 X191 Y120 E42.68635
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 534] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 535] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 536] [LAYER 0]
+CMD      : G1 X190.601 Y119.207 E42.70343
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 537] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 538] [LAYER 0]
+CMD      : G1 X190 Y119 E42.7155
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 539] [LAYER 0]
+CMD      : G1 X165 Y119 E43.18577
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 540] [LAYER 0]
+CMD      : G1 X164.727 Y119.054 E43.191
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 541] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 542] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 543] [LAYER 0]
+CMD      : G0 F3600 X164.839 Y119.881
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 544] [LAYER 0]
+CMD      : G1 F1800 X165 Y119.8 E43.20624
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 545] [LAYER 0]
+CMD      : G1 X190 Y119.8 E43.67651
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 546] [LAYER 0]
+CMD      : G1 X190.119 Y119.839 E43.67886
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 547] [LAYER 0]
+CMD      : G1 X190.2 Y120 E43.68225
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 548] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 549] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 550] [LAYER 0]
+CMD      : G1 X190 Y145.2 E44.15826
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 551] [LAYER 0]
+CMD      : G1 X165 Y145.2 E44.62852
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 552] [LAYER 0]
+CMD      : G1 X164.881 Y145.161 E44.63088
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.990
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 553] [LAYER 0]
+CMD      : G1 X164.8 Y145 E44.63427
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 554] [LAYER 0]
+CMD      : G1 X164.8 Y120 E45.10453
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.990
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 555] [LAYER 0]
+CMD      : G1 X164.839 Y119.881 E45.10689
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 556] [LAYER 0]
+CMD      : G0 F3600 X164.459 Y119.756
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 557] [LAYER 0]
+CMD      : G1 F1800 X164.55 Y119.604 E45.11022
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 558] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 559] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 560] [LAYER 0]
+CMD      : G1 X190 Y119.4 E45.58988
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 561] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 562] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 563] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 564] [LAYER 0]
+CMD      : G1 X190.6 Y120 E45.60733
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 565] [LAYER 0]
+CMD      : G1 X190.6 Y145 E46.07759
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 566] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 567] [LAYER 0]
+CMD      : G1 X190.45 Y145.396 E46.08565
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 568] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 569] [LAYER 0]
+CMD      : G1 X190 Y145.6 E46.09504
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 570] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 571] [LAYER 0]
+CMD      : G1 X164.756 Y145.541 E46.57003
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 572] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 573] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 574] [LAYER 0]
+CMD      : G1 X164.4 Y145 E46.58276
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 575] [LAYER 0]
+CMD      : G1 X164.4 Y120 E47.05302
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 576] [LAYER 0]
+CMD      : G1 X164.459 Y119.756 E47.05774
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 577] [LAYER 0]
+CMD      : G1 F1500 E40.55774
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 578] [LAYER 0]
+CMD      : ;MESH:inputs\stl_file.stl
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 579] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 580] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 581] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 582] [LAYER 0]
+CMD      : ;TYPE:WALL-INNER
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 583] [LAYER 0]
+CMD      : G1 F1500 E47.05774
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.715
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 584] [LAYER 0]
+CMD      : G1 F1800 X189.4 Y120.6 E47.50543
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.630
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 585] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.651
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 586] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.715
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 587] [LAYER 0]
+CMD      : G1 X189.4 Y144.4 E48.84851
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.783
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 588] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.847
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 589] [LAYER 0]
+CMD      : ;TYPE:WALL-OUTER
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.897
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 590] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.933
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 591] [LAYER 0]
+CMD      : G1 X165.2 Y120.2 E49.77399
+TRUST    : acc_cmd=0.008 | acc_exec=0.000 | trust=0.950
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 592] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.966
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 593] [LAYER 0]
+CMD      : G1 X189.8 Y144.8 E50.69947
+TRUST    : acc_cmd=0.009 | acc_exec=0.000 | trust=0.971
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 594] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.979
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 595] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.986
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 596] [LAYER 0]
+CMD      : ;TYPE:SKIN
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 597] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 598] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 599] [LAYER 0]
+CMD      : G1 X189.02 Y120.98 E51.99965
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 600] [LAYER 0]
+CMD      : G1 X189.02 Y144.02 E52.43305
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 601] [LAYER 0]
+CMD      : G0 F3600 X188.496 Y121.18
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.985
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 602] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y121.504 E52.44167
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 603] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y122.069
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 604] [LAYER 0]
+CMD      : G1 F1800 X187.931 Y121.18 E52.46531
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 605] [LAYER 0]
+CMD      : G0 F3600 X187.365 Y121.18
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 606] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 607] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 608] [LAYER 0]
+CMD      : G1 F1800 X186.799 Y121.18 E52.55778
+TRUST    : acc_cmd=0.000 | acc_exec=0.361 | trust=0.800
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 609] [LAYER 0]
+CMD      : G0 F3600 X186.234 Y121.18
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.776
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 610] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.813
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 611] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y124.332
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.862
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 612] [LAYER 0]
+CMD      : G1 F1800 X185.668 Y121.18 E52.71043
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.904
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 613] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.936
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 614] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.959
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 615] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y125.463
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.973
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 616] [LAYER 0]
+CMD      : G1 F1800 X184.536 Y121.18 E52.92328
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.982
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 617] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 618] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y126.029 E53.05228
+TRUST    : acc_cmd=0.002 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 619] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y126.595
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 620] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 621] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 622] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y127.16 E53.35542
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.713
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 623] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.635
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 624] [LAYER 0]
+CMD      : G1 F1800 X182.274 Y121.18 E53.52956
+TRUST    : acc_cmd=0.002 | acc_exec=0.000 | trust=0.654
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 625] [LAYER 0]
+CMD      : G0 F3600 X181.708 Y121.18
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.717
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 626] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.789
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 627] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y128.857
+TRUST    : acc_cmd=0.003 | acc_exec=0.000 | trust=0.850
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 628] [LAYER 0]
+CMD      : G1 F1800 X181.142 Y121.18 E53.92299
+TRUST    : acc_cmd=0.003 | acc_exec=0.000 | trust=0.897
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 629] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.932
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 630] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y129.423 E54.14227
+TRUST    : acc_cmd=0.003 | acc_exec=0.000 | trust=0.954
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 631] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y129.989
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.970
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 632] [LAYER 0]
+CMD      : G1 F1800 X180.011 Y121.18 E54.37661
+TRUST    : acc_cmd=0.003 | acc_exec=0.000 | trust=0.978
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 633] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.986
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 634] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 635] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y131.12
+TRUST    : acc_cmd=0.003 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 636] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 637] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 638] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 639] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y132.252
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 640] [LAYER 0]
+CMD      : G1 F1800 X177.748 Y121.18 E55.46445
+TRUST    : acc_cmd=0.004 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 641] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 642] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y132.817 E55.77402
+TRUST    : acc_cmd=0.004 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 643] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 644] [LAYER 0]
+CMD      : G1 F1800 X176.617 Y121.18 E56.09865
+TRUST    : acc_cmd=0.004 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 645] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 646] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 647] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 648] [LAYER 0]
+CMD      : G1 F1800 X175.486 Y121.18 E56.79304
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.713
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 649] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.634
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 650] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.655
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 651] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.719
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 652] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.791
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 653] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.854
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 654] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y136.211 E57.94751
+TRUST    : acc_cmd=0.005 | acc_exec=0.000 | trust=0.898
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 655] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y136.777
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.932
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 656] [LAYER 0]
+CMD      : G1 F1800 X173.223 Y121.18 E58.36242
+TRUST    : acc_cmd=0.005 | acc_exec=0.000 | trust=0.952
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 657] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.968
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 658] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.979
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 659] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.987
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 660] [LAYER 0]
+CMD      : G1 F1800 X172.091 Y121.18 E59.23741
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.709
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 661] [LAYER 0]
+CMD      : G0 F3600 X171.526 Y121.18
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.632
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 662] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y138.474 E59.69747
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.649
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 663] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y139.04
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.713
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 664] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.786
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 665] [LAYER 0]
+CMD      : G0 F3600 X170.394 Y121.18
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.845
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 666] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.895
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 667] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.931
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 668] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.956
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 669] [LAYER 0]
+CMD      : G0 F3600 X169.263 Y121.18
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.972
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 670] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.983
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 671] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y141.303
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.983
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 672] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.987
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 673] [LAYER 0]
+CMD      : G0 F3600 X168.132 Y121.18
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.985
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 674] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 675] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y142.434
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.985
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 676] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 677] [LAYER 0]
+CMD      : G0 F3600 X167 Y121.18
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.985
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 678] [LAYER 0]
+CMD      : G1 F1800 X188.82 Y143 E63.91973
+TRUST    : acc_cmd=0.008 | acc_exec=0.140 | trust=0.878
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 679] [LAYER 0]
+CMD      : G0 F3600 X188.82 Y143.565
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.877
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 680] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.904
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 681] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.933
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 682] [LAYER 0]
+CMD      : G1 F1800 X188.509 Y143.82 E65.10922
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.685
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 683] [LAYER 0]
+CMD      : G0 F3600 X187.943 Y143.82
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.621
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 684] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y122.057 E65.68816
+TRUST    : acc_cmd=0.008 | acc_exec=0.000 | trust=0.641
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 685] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y122.622
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.707
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 686] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.782
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 687] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.848
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 688] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.898
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 689] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.934
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 690] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.958
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 691] [LAYER 0]
+CMD      : G0 F3600 X185.681 Y143.82
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.968
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 692] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y124.319 E67.8535
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.972
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 693] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y124.885
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.979
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 694] [LAYER 0]
+CMD      : G1 F1800 X185.115 Y143.82 E68.35721
+TRUST    : acc_cmd=0.007 | acc_exec=0.000 | trust=0.980
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 695] [LAYER 0]
+CMD      : G0 F3600 X184.549 Y143.82
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.985
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 696] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y125.451 E68.84586
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.984
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 697] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y126.016
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 698] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 699] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 700] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y126.582 E69.77806
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.711
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 701] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.633
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 702] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.655
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 703] [LAYER 0]
+CMD      : G0 F3600 X182.286 Y143.82
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.713
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 704] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y127.713 E70.65003
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.780
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 705] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.845
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 706] [LAYER 0]
+CMD      : G1 F1800 X181.721 Y143.82 E71.06346
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.891
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 707] [LAYER 0]
+CMD      : G0 F3600 X181.155 Y143.82
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.927
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 708] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.953
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 709] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.971
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 710] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.982
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 711] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.989
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 712] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y129.976 E72.21343
+TRUST    : acc_cmd=0.005 | acc_exec=0.000 | trust=0.989
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 713] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y130.542
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.991
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 714] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.994
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 715] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 716] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y131.107 E72.90483
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.713
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 717] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.634
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 718] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.655
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 719] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.719
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 720] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y132.239 E73.53605
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.597
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 721] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.578
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 722] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.620
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 723] [LAYER 0]
+CMD      : G0 F3600 X176.63 Y143.82
+TRUST    : acc_cmd=0.004 | acc_exec=0.000 | trust=0.689
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 724] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.767
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 725] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.836
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 726] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.890
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 727] [LAYER 0]
+CMD      : G0 F3600 X175.498 Y143.82
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.928
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 728] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y134.502 E74.61788
+TRUST    : acc_cmd=0.003 | acc_exec=0.000 | trust=0.951
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 729] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y135.067
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.968
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 730] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.980
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 731] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.988
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 732] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.992
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 733] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y136.199
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 734] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 735] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 736] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 737] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y137.33
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 738] [LAYER 0]
+CMD      : G1 F1800 X172.67 Y143.82 E75.63161
+TRUST    : acc_cmd=0.002 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 739] [LAYER 0]
+CMD      : G0 F3600 X172.104 Y143.82
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 740] [LAYER 0]
+CMD      : M104 S210
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 741] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y137.896 E75.7892
+TRUST    : acc_cmd=0.002 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 742] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 743] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 744] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 745] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y139.027 E76.05925
+TRUST    : acc_cmd=0.000 | acc_exec=0.990 | trust=0.714
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 746] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y139.593
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.636
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 747] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.657
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 748] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.721
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 749] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y140.158 E76.2691
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.598
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 750] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.579
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 751] [LAYER 0]
+CMD      : G1 F1800 X169.276 Y143.82 E76.35146
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.619
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 752] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.691
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 753] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.770
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 754] [LAYER 0]
+CMD      : G0 F3600 X166.18 Y141.856
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.837
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 755] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.890
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 756] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.929
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 757] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.955
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 758] [LAYER 0]
+CMD      : M104 S300
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.972
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 759] [LAYER 0]
+CMD      : G1 F1800 X167.013 Y143.82 E76.53039
+TRUST    : acc_cmd=0.001 | acc_exec=0.000 | trust=0.982
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 760] [LAYER 0]
+CMD      : G0 F3600 X166.447 Y143.82
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.989
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 761] [LAYER 0]
+CMD      : G1 F1800 X166.18 Y143.553 E76.53749
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.993
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 762] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.996
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 763] [LAYER 0]
+CMD      : M104 S50
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.997
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 764] [LAYER 0]
+CMD      : G0 F600 X166.21 Y143.553 Z0.5
+TRUST    : acc_cmd=0.667 | acc_exec=0.000 | trust=0.739
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 765] [LAYER 0]
+CMD      : G0 F3600 X189.12 Y144.12
+TRUST    : acc_cmd=0.006 | acc_exec=0.000 | trust=0.684
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 766] [LAYER 0]
+CMD      : G0 X189.4 Y144.4
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.718
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 767] [LAYER 0]
+CMD      : ;TIME_ELAPSED:145.036243
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.781
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 768] [LAYER 1]
+CMD      : M104 S50
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.624
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 769] [LAYER 1]
+CMD      : M104 S300
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.552
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 770] [LAYER 1]
+CMD      : M104 S50
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.521
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 771] [LAYER 1]
+CMD      : ;MESH:inputs\stl_file.stl
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.517
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 772] [LAYER 1]
+CMD      : G1 F2700 X189.4 Y120.6 E76.83595
+TRUST    : acc_cmd=0.015 | acc_exec=0.000 | trust=0.540
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 773] [LAYER 1]
+CMD      : M104 S300
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.520
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 774] [LAYER 1]
+CMD      : M104 S50
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.509
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 775] [LAYER 1]
+CMD      : M104 S50
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.504
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 776] [LAYER 1]
+CMD      : G0 F5400 X189.8 Y144.8
+TRUST    : acc_cmd=0.015 | acc_exec=0.000 | trust=0.508
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 777] [LAYER 1]
+CMD      : M104 S300
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.505
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 778] [LAYER 1]
+CMD      : G1 F1800 X189.8 Y120.2 E78.03982
+TRUST    : acc_cmd=0.016 | acc_exec=0.000 | trust=0.514
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 779] [LAYER 1]
+CMD      : G1 X165.2 Y120.2 E78.34832
+TRUST    : acc_cmd=0.016 | acc_exec=0.000 | trust=0.547
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 780] [LAYER 1]
+CMD      : M104 S300
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.523
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 781] [LAYER 1]
+CMD      : M104 S300
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.510
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 782] [LAYER 1]
+CMD      : M104 S50
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.505
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 783] [LAYER 1]
+CMD      : G0 X189.02 Y144.02
+TRUST    : acc_cmd=0.021 | acc_exec=0.000 | trust=0.508
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 784] [LAYER 1]
+CMD      : ;TYPE:SKIN
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.533
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 785] [LAYER 1]
+CMD      : M104 S50
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.517
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 786] [LAYER 1]
+CMD      : G1 X165.98 Y120.98 E79.54316
+TRUST    : acc_cmd=0.021 | acc_exec=0.000 | trust=0.527
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 787] [LAYER 1]
+CMD      : M104 S300
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.514
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 788] [LAYER 1]
+CMD      : M104 S50
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.506
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 789] [LAYER 1]
+CMD      : G0 F5400 X188.237 Y143.82
+TRUST    : acc_cmd=0.020 | acc_exec=0.000 | trust=0.511
+DECISION : ALLOW
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 790] [LAYER 1]
+CMD      : G1 F1800 X188.82 Y143.237 E80.13136
+TRUST    : acc_cmd=0.001 | acc_exec=1.000 | trust=0.256
+DECISION : PAUSE
+MACHINE  : Machine-3
+------------------------------------------------------------
+
+============================================================
+DT-3 FINISHED
+FINAL TRUST: 0.256
+END TIME  : 2026-01-06 21:31:07.680768
+============================================================

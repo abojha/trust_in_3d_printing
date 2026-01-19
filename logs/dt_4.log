@@ -1,0 +1,245 @@
+============================================================
+DT-4 SIMULATION LOG
+START TIME: 2026-01-06 21:31:07.178296
+============================================================
+
+[SEQ 0] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.800
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 1] [LAYER INIT]
+CMD      : ;HEADER_VERSION:0.1
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.920
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 2] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.968
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 3] [LAYER INIT]
+CMD      : ;GENERATOR.NAME:Cura_SteamEngine
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.987
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 4] [LAYER INIT]
+CMD      : ;GENERATOR.VERSION:5.11.0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 5] [LAYER INIT]
+CMD      : ;GENERATOR.BUILD_DATE:2025-10-23
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 6] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 7] [LAYER INIT]
+CMD      : ;EXTRUDER_TRAIN.0.INITIAL_TEMPERATURE:215
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 8] [LAYER INIT]
+CMD      : ;EXTRUDER_TRAIN.0.NOZZLE.DIAMETER:0.4
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 9] [LAYER INIT]
+CMD      : ;EXTRUDER_TRAIN.0.NOZZLE.NAME:unknown
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 10] [LAYER INIT]
+CMD      : ;BUILD_PLATE.INITIAL_TEMPERATURE:60
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 11] [LAYER INIT]
+CMD      : ;BUILD_VOLUME.TEMPERATURE:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 12] [LAYER INIT]
+CMD      : ;PRINT.GROUPS:1
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 13] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 14] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MIN.Y:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 15] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MIN.Z:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 16] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MAX.X:0.01
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 17] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 18] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 19] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 20] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 21] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 22] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 23] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 24] [LAYER INIT]
+CMD      : 
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 25] [LAYER INIT]
+CMD      : M82 ;absolute extrusion mode
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 26] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 27] [LAYER INIT]
+CMD      : M190 S60
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 28] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 29] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 30] [LAYER INIT]
+CMD      : G280 S1
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 31] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 32] [LAYER INIT]
+CMD      : G1 F1500 E-6.5
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 33] [LAYER INIT]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 34] [LAYER 0]
+CMD      : ;LAYER:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 35] [LAYER 0]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.715
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 36] [LAYER 0]
+CMD      : G0 F3600 X158.617 Y115.55 Z0.3
+TRUST    : acc_cmd=0.048 | acc_exec=0.000 | trust=0.629
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 37] [LAYER 0]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.556
+DECISION : ALLOW
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 38] [LAYER 0]
+CMD      : G1 F1500 E0
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.262
+DECISION : PAUSE
+MACHINE  : Machine-4
+------------------------------------------------------------
+
+============================================================
+DT-4 FINISHED
+FINAL TRUST: 0.262
+END TIME  : 2026-01-06 21:31:07.680782
+============================================================

@@ -1,0 +1,245 @@
+============================================================
+DT-2 SIMULATION LOG
+START TIME: 2026-01-06 21:31:07.168269
+============================================================
+
+[SEQ 0] [LAYER INIT]
+CMD      : ;START_OF_HEADER
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.800
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 1] [LAYER INIT]
+CMD      : M221 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.920
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 2] [LAYER INIT]
+CMD      : G92 E1000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.968
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 3] [LAYER INIT]
+CMD      : ;GENERATOR.NAME:Cura_SteamEngine
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.987
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 4] [LAYER INIT]
+CMD      : ;GENERATOR.VERSION:5.11.0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.995
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 5] [LAYER INIT]
+CMD      : ;GENERATOR.BUILD_DATE:2025-10-23
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.998
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 6] [LAYER INIT]
+CMD      : M221 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=0.999
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 7] [LAYER INIT]
+CMD      : G92 E1000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 8] [LAYER INIT]
+CMD      : ;EXTRUDER_TRAIN.0.NOZZLE.DIAMETER:0.4
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 9] [LAYER INIT]
+CMD      : ;EXTRUDER_TRAIN.0.NOZZLE.NAME:unknown
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 10] [LAYER INIT]
+CMD      : ;BUILD_PLATE.INITIAL_TEMPERATURE:60
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 11] [LAYER INIT]
+CMD      : ;BUILD_VOLUME.TEMPERATURE:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 12] [LAYER INIT]
+CMD      : ;PRINT.GROUPS:1
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 13] [LAYER INIT]
+CMD      : G92 E1000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 14] [LAYER INIT]
+CMD      : M221 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 15] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MIN.Z:0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 16] [LAYER INIT]
+CMD      : G92 E1000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 17] [LAYER INIT]
+CMD      : ;PRINT.SIZE.MAX.Y:0.01
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 18] [LAYER INIT]
+CMD      : G92 E1000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 19] [LAYER INIT]
+CMD      : ;SLICE_UUID:dabf7bf9-0ae4-46bc-894d-71c377825661
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 20] [LAYER INIT]
+CMD      : ;END_OF_HEADER
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 21] [LAYER INIT]
+CMD      : M92 E2000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 22] [LAYER INIT]
+CMD      : ;Generated with Cura_SteamEngine 5.11.0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 23] [LAYER INIT]
+CMD      : M221 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 24] [LAYER INIT]
+CMD      : M221 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 25] [LAYER INIT]
+CMD      : M221 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 26] [LAYER INIT]
+CMD      : G92 E0
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 27] [LAYER INIT]
+CMD      : M190 S60
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 28] [LAYER INIT]
+CMD      : M92 E2000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 29] [LAYER INIT]
+CMD      : M92 E2000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 30] [LAYER INIT]
+CMD      : G280 S1
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 31] [LAYER INIT]
+CMD      : M92 E2000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 32] [LAYER INIT]
+CMD      : M221 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 33] [LAYER INIT]
+CMD      : ;LAYER_COUNT:24
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 34] [LAYER 0]
+CMD      : G92 E1000
+TRUST    : acc_cmd=0.000 | acc_exec=0.000 | trust=1.000
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 35] [LAYER 0]
+CMD      : M221 S200
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.715
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 36] [LAYER 0]
+CMD      : M221 S200
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.588
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 37] [LAYER 0]
+CMD      : M92 E2000
+TRUST    : acc_cmd=1.000 | acc_exec=0.000 | trust=0.536
+DECISION : ALLOW
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 38] [LAYER 0]
+CMD      : G1 F1500 E0
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.238
+DECISION : PAUSE
+MACHINE  : Machine-2
+------------------------------------------------------------
+
+============================================================
+DT-2 FINISHED
+FINAL TRUST: 0.238
+END TIME  : 2026-01-06 21:31:07.680751
+============================================================

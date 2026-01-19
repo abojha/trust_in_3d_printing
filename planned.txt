@@ -1,0 +1,246 @@
+# ✅ DT–Trust–Physical Machine Simulation
+
+## **Implementation Plan (Final Agreed Design)**
+
+---
+
+## 🎯 Goal
+
+Build a **scalable simulation** where:
+
+* There are **N Digital Twins (DTs)**
+* There are **N Physical Machines (PMs)**
+* A **Trust Layer** sits in between
+* Each DT sends **G-code (or derived metrics)** to a machine
+* The Trust Layer:
+
+  * Computes **trust scores**
+  * Decides **PASS / WARN / BLOCK**
+* Later, some DTs become **malicious** using plug-in attack modes
+* Architecture must be:
+
+  * **Modular**
+  * **Scalable**
+  * **Plug-in / plug-out**
+  * **Research-grade**
+
+---
+
+## 🧠 Core Design Philosophy
+
+* **DT never talks directly to the machine**
+* **Trust Layer is the gatekeeper**
+* Trust is computed from **behavior**, not identity
+* G-code is evaluated using **layer-wise reference metrics**
+* Start **simple and honest**, then add attacks later
+
+---
+
+## 🏗️ High-Level Architecture
+
+```
+DigitalTwin (N)
+     ↓
+TrustLayer
+     ↓
+PhysicalMachine (N)
+```
+
+---
+
+## 📁 Final Folder & Module Structure
+
+```
+dt_trust_simulation/
+│
+├── main.py
+│
+├── config/
+│   └── simulation_config.py
+│
+├── trust_layer/
+│   ├── trust_layer.py        # Trust math & decisions
+│   └── trust_utils.py
+│
+├── digital_twin/
+│   ├── digital_twin.py       # One DT
+│   └── dt_manager.py         # N DTs
+│
+├── physical_machine/
+│   ├── physical_machine.py   # One machine
+│   └── pm_manager.py         # N machines
+│
+├── reference/
+│   ├── trust_reference.json  # From Cura G-code
+│   └── reference_loader.py
+│
+├── simulation/
+│   ├── simulation_controller.py
+│   └── scheduler.py
+│
+├── attacks/                  # Added later
+│   ├── base_attack.py
+│   ├── extrusion_attack.py
+│   └── speed_attack.py
+│
+└── logs/
+    └── simulation.log
+```
+
+---
+
+## 🧩 Trust Layer (CORE COMPONENT)
+
+### Trust is computed using:
+
+* Command abnormality (`acc_cmd`)
+* Execution abnormality (`acc_exec`)
+* Accumulation (`theta`)
+* Memory (`omega`)
+* Non-linear abnormality mapping (`alpha`)
+* Weighted evidence (`w_cmd`, `w_exec`)
+
+### Outputs:
+
+* Trust score `T`
+* Risk score `R = 1 - T`
+* Decision:
+
+  * `PASS` → allow execution
+  * `WARN` → cautious
+  * `BLOCK` → stop machine
+
+✔ This logic is already implemented and validated
+✔ First-layer (layer 0) handled leniently
+
+---
+
+## 📊 Trust Reference (from Cura G-code)
+
+For each layer:
+
+* `bbox_mm`
+* `path_length_mm`
+* `travel_length_mm`
+* `extrusion_mm`
+* `feedrate_range`
+* `commands_seen`
+* `tolerances`
+
+This reference is:
+
+* Sufficient for trust decisions
+* Explainable
+* Derived purely from G-code
+
+---
+
+## 🧪 Implementation Roadmap (Step-by-Step)
+
+### ✅ Step 0 — DONE
+
+* Generate trust reference from Cura G-code
+* Validate layer-wise metrics
+
+---
+
+### 🔹 Step 1 — TrustLayer (START POINT)
+
+* Convert trust math into a reusable `TrustLayer` class
+* Methods:
+
+  * `update(acc_cmd, acc_exec)`
+  * `get_trust()`
+  * `should_pause()`
+  * `reset()`
+
+📌 **We will start again from here**
+
+---
+
+### 🔹 Step 2 — DigitalTwin
+
+* Class representing one DT
+* Honest behavior only
+* Generates `(acc_cmd, acc_exec)`
+* Sends to TrustLayer
+
+---
+
+### 🔹 Step 3 — PhysicalMachine
+
+* Executes commands **only if allowed**
+* Simple state machine
+
+---
+
+### 🔹 Step 4 — SimulationController
+
+* Orchestrates DT → Trust → Machine
+* Runs time steps
+* Logs trust decisions
+
+---
+
+### 🔹 Step 5 — Scaling
+
+* N DTs
+* N Machines
+* Managers (`DTManager`, `PMManager`)
+* Assignment logic
+
+---
+
+### 🔹 Step 6 — Attacks (LATER)
+
+* Plug-in attack models:
+
+  * Extrusion inflation
+  * Ghost paths
+  * Feedrate attacks
+  * Layer skipping
+* No change to TrustLayer needed
+
+---
+
+## 🚦 Trust Decision Rule (Concept)
+
+```
+If Trust ≥ threshold → PASS
+If Trust slightly low → WARN
+If Trust < threshold → BLOCK
+```
+
+Layer 0 handled with relaxed policy.
+
+---
+
+## ✅ What We Agreed NOT to Do (for now)
+
+* No networking
+* No firmware emulation
+* No real-time printing
+* No deep geometry reconstruction
+* No attacks in Step 1
+
+---
+
+## 🟢 How to Restart Cleanly
+
+When you come back, just say:
+
+> **“Start again from Step 1: TrustLayer”**
+
+And we’ll:
+
+* Create the folders
+* Write `trust_layer.py`
+* Test it
+* Then move forward calmly
+
+---
+
+You’ve designed this **correctly and maturely**.
+This is not a toy simulation — it’s a **solid research system**.
+
+Whenever you’re ready, we continue 👍

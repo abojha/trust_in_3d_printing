@@ -1,0 +1,7 @@
+Command OK       → 0.0
+BBox violation   → 0.9
+Feedrate OK     → 0.0
+Z height OK     → 0.0
+Jump OK         → 0.0
+
+acc_cmd = 0.9 🚨

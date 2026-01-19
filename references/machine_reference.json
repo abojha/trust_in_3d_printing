@@ -1,0 +1,25 @@
+{
+  "machine": {
+    "model": "Ultimaker S5",
+    "source": "cura_machine_definition",
+    "derived_from": "UltiMaker S5 .def.json",
+    "trust_boundary": "hardware_execution"
+  },
+
+  "motion": {
+    "max_feedrate_mm_per_min": 18000,
+    "max_acceleration_mm_s2": 3000,
+    "max_jerk_mm_s": 8.0
+  },
+
+  "extrusion": {
+    "max_retraction_mm": 6.5,
+    "max_extrusion_per_mm": 0.12,
+    "max_e_rate_mm_s": 8.0
+  },
+
+  "temperature": {
+    "max_nozzle_temp_c": 280,
+    "max_temp_change_per_command": 15
+  }
+}
