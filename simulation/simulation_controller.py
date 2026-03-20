@@ -7,8 +7,8 @@ from trust_layer.trust_layer import TrustLayer
 from trust_layer.command_analyzer import CommandAnalyzer
 from trust_layer.reference_context import ReferenceContext
 from trust_layer.command_validator import CommandValidator
-from baselines.constraint_safety.constraint_monitor import ConstraintSafetyMonitor
-from baselines.run_time_anamoly.run_time_anamoly_monitor import RuntimeAnomalyMonitor
+from baselines.CBSM.constraint_monitor import ConstraintSafetyMonitor
+from baselines.RSAM.run_time_anamoly_monitor import RuntimeAnomalyMonitor
 
 import json
 
@@ -24,13 +24,13 @@ class SimulationController:
     - Detection time = last logged command index
     """
 
-    def __init__(self, mapping, cmd_reference, machine_reference, attacks=None):
+    def __init__(self, mapping, cmd_reference, machine_reference, attacks=None, output_dir="results/default"):
         self.dt_manager = DTManager()
         self.pm_manager = PMManager()
         self.mapping = {}
 
-        self.logger = SimulationLogger()
-
+        self.logger = SimulationLogger(base_dir=output_dir)
+ 
         # Attack registry (per DT)
         self.attacks = attacks or {}
 
@@ -42,13 +42,15 @@ class SimulationController:
 
 
         # Logging active flags (per DT, per method)
-        self.trust_active = {}
-        self.static_active = {}
+        # These flags track whether each method has ALREADY detected.
+        # We continue logging AFTER detection so plots show full trajectories.
+        self.trust_detected = {}
+        self.static_detected = {}
 
         self.static_detectors = {}
 
         self.ieee_detectors = {}
-        self.ieee_active = {}
+        self.ieee_detected = {}
 
 
         self._initialize(mapping, cmd_reference, machine_reference)
@@ -77,18 +79,18 @@ class SimulationController:
             self.command_validators[dt_id] = CommandValidator()
 
 
-            # Logging state
-            self.trust_active[dt_id] = True
+            # Logging state — not yet detected
+            self.trust_detected[dt_id] = False
 
             # Log header
             self.logger.log_header(dt_id)
 
             self.static_detectors[dt_id] = ConstraintSafetyMonitor()
-            self.static_active[dt_id] = True
+            self.static_detected[dt_id] = False
 
 
             self.ieee_detectors[dt_id] = RuntimeAnomalyMonitor()
-            self.ieee_active[dt_id] = True
+            self.ieee_detected[dt_id] = False
 
 
 
@@ -164,49 +166,40 @@ class SimulationController:
 
 
                 # -----------------------------
-                # LOGGING CONTROL (KEY PART)
+                # LOGGING CONTROL
+                # Always log every command so plots show full trajectories.
+                # The 'decision' column marks PAUSE/BLOCK/ALERT.
+                # first_decision_index() in plot.py finds the first such row.
                 # -----------------------------
 
-                # Trust logging (stop after PAUSE)
-                if self.trust_active[dt_id]:
-                    self.logger.log_command(
-                        dt_id=dt_id,
-                        machine_id=machine_id,
-                        seq=seq,
-                        layer=ref_ctx.current_layer,
-                        gcode=gcode,
-                        acc_cmd=acc_cmd,
-                        acc_exec=acc_exec,
-                        trust=trust_out["trust"],
-                        decision=trust_out["decision"]
-                    )
+                # Trust logging — always log; decision column carries PAUSE
+                self.logger.log_command(
+                    dt_id=dt_id,
+                    machine_id=machine_id,
+                    seq=seq,
+                    layer=ref_ctx.current_layer,
+                    gcode=gcode,
+                    acc_cmd=acc_cmd,
+                    acc_exec=acc_exec,
+                    trust=trust_out["trust"],
+                    decision=trust_out["decision"]
+                )
 
-                    if trust_out["decision"] == "PAUSE":
-                        self.trust_active[dt_id] = False
+                # CBSM baseline — always log
+                self.logger.log_cbsm_baseline(
+                    dt_id=dt_id,
+                    seq=seq,
+                    analysis=analysis,
+                    decision=static_decision
+                )
 
-                if self.static_active[dt_id]:
-                    self.logger.log_static_baseline(
-                        dt_id=dt_id,
-                        seq=seq,
-                        analysis=analysis,
-                        decision=static_decision
-                    )
-
-
-                    if static_decision == "BLOCK":
-                        self.static_active[dt_id] = False
-
-                # IEEE baseline logging (stop after ALERT)
-                if self.ieee_active[dt_id]:
-                    self.logger.log_ieee_baseline(
-                        dt_id=dt_id,
-                        seq=seq,
-                        score=ieee_score,
-                        decision=ieee_decision
-                    )
-
-                    if ieee_decision == "ALERT":
-                        self.ieee_active[dt_id] = False
+                # RSAM baseline — always log
+                self.logger.log_rsam_baseline(
+                    dt_id=dt_id,
+                    seq=seq,
+                    score=ieee_score,
+                    decision=ieee_decision
+                )
 
 
 

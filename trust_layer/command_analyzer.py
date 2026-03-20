@@ -14,6 +14,7 @@ class CommandAnalyzer:
         self.pos = {"X": 0.0, "Y": 0.0, "Z": 0.0, "E": 0.0}
         self.xyz_mode = "absolute"   # G90 / G91
         self.e_mode = "absolute"     # M82 / M83
+        self.nozzle_temp = None      # track last nozzle temperature
 
     def analyze(self, gcode_line: str):
         line = gcode_line.strip()
@@ -102,10 +103,17 @@ class CommandAnalyzer:
 
         # State / process commands
         if cmd.startswith("M"):
+            effects = params.copy()
+
+            # Track nozzle temperature for M104/M109
+            if cmd in ("M104", "M109") and "S" in params:
+                effects["prev_temp"] = self.nozzle_temp
+                self.nozzle_temp = params["S"]
+
             return {
                 "type": "state",
                 "cmd": cmd,
-                "effects": params
+                "effects": effects
             }
 
 

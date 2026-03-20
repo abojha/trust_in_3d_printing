@@ -1,0 +1,48 @@
+# ============================================================
+#  .gitignore — Trust-Based Security Framework for 3D Printing
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ---------- Virtual environments ----------
+venv/
+.env/
+env/
+.venv/
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---------- Paper (LaTeX source — not needed in code repo) ----------
+paper/
+
+# ---------- Scripts (debug / one-off helpers) ----------
+scripts/
+
+# ---------- Experiment results (large generated outputs) ----------
+# Results contain ~435 CSVs + PNGs; regenerate with runner.sh
+results/
+
+# ---------- Log files ----------
+logs/*.log
+
+# ---------- 3D image assets (not needed for code) ----------
+references/3d_image/
+
+# ---------- OS files ----------
+*.DS_Store
+desktop.ini

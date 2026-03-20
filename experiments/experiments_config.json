@@ -1,0 +1,54 @@
+{
+  "probability_sweep": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seeds": [
+    42
+  ],
+  "experiments": [
+    {
+      "name": "cuboid_experiment",
+      "gcode_path": "references/g_code/cuboid.gcode",
+      "reference_path": "references/behavioral_references/cuboid_br.json",
+      "machine_reference": "references/physical_references/physical_references.json",
+      "result_dir": "results/f{name}_experiment",
+      "num_dts": 4,
+      "attacks": {
+        "2": "command_injection",
+        "3": "temperature_shock",
+        "4": "extrusion_flood"
+      }
+    },
+    {
+      "name": "cylinder_experiment",
+      "gcode_path": "references/g_code/cylinder.gcode",
+      "reference_path": "references/behavioral_references/cylinder_br.json",
+      "machine_reference": "references/physical_references/physical_references.json",
+      "result_dir": "results/f{name}_experiment",
+      "num_dts": 4,
+      "attacks": {
+        "2": "command_injection",
+        "3": "temperature_shock",
+        "4": "extrusion_flood"
+      }
+    },
+    {
+      "name": "flatplate_experiment",
+      "gcode_path": "references/g_code/flatplate.gcode",
+      "reference_path": "references/behavioral_references/flatplate_br.json",
+      "machine_reference": "references/physical_references/physical_references.json",
+      "result_dir": "results/f{name}_experiment",
+      "num_dts": 4,
+      "attacks": {
+        "2": "command_injection",
+        "3": "temperature_shock",
+        "4": "extrusion_flood"
+      }
+    }
+  ]
+}

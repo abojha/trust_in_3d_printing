@@ -1,0 +1,282 @@
+[
+  {
+    "layer_index": 0,
+    "z_height_mm": 0.2,
+    "motion": {
+      "bbox_mm": [
+        156.218,
+        111.212,
+        173.79,
+        128.789
+      ],
+      "path_length_mm": 628.459,
+      "travel_length_mm": 204.031
+    },
+    "extrusion": {
+      "material_mm": 11.822
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        3600.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "G1",
+      "M104",
+      "M107"
+    ],
+    "tolerances": {
+      "path_length_mm": 31.42295,
+      "extrusion_mm": 1.1822
+    }
+  },
+  {
+    "layer_index": 1,
+    "z_height_mm": 0.6,
+    "motion": {
+      "bbox_mm": [
+        164.372,
+        119.13,
+        164.425,
+        119.188
+      ],
+      "path_length_mm": 0.173,
+      "travel_length_mm": 0.026
+    },
+    "extrusion": {
+      "material_mm": 0.001
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        5400.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "G1",
+      "M106"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  },
+  {
+    "layer_index": 2,
+    "z_height_mm": 0.8,
+    "motion": {
+      "bbox_mm": [
+        164.357,
+        119.094,
+        165.448,
+        119.994
+      ],
+      "path_length_mm": 0.234,
+      "travel_length_mm": 1.337
+    },
+    "extrusion": {
+      "material_mm": 0.003
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        7200.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "G1"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  },
+  {
+    "layer_index": 3,
+    "z_height_mm": 1.0,
+    "motion": {
+      "bbox_mm": [
+        0.0,
+        0.0,
+        165.448,
+        120.016
+      ],
+      "path_length_mm": 0.131,
+      "travel_length_mm": 204.381
+    },
+    "extrusion": {
+      "material_mm": 0.001
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        7200.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "G1",
+      "M104"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  },
+  {
+    "layer_index": 4,
+    "z_height_mm": 1.2,
+    "motion": {
+      "bbox_mm": [
+        163.899,
+        118.77,
+        164.436,
+        119.268
+      ],
+      "path_length_mm": 0.0,
+      "travel_length_mm": 203.141
+    },
+    "extrusion": {
+      "material_mm": 0.0
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        7200.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "M104"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  },
+  {
+    "layer_index": 5,
+    "z_height_mm": 1.4,
+    "motion": {
+      "bbox_mm": [
+        164.241,
+        118.891,
+        164.436,
+        119.29
+      ],
+      "path_length_mm": 0.131,
+      "travel_length_mm": 0.424
+    },
+    "extrusion": {
+      "material_mm": 0.001
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        7200.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "G1"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  },
+  {
+    "layer_index": 6,
+    "z_height_mm": 1.6,
+    "motion": {
+      "bbox_mm": [
+        164.196,
+        118.865,
+        164.401,
+        119.115
+      ],
+      "path_length_mm": 0.156,
+      "travel_length_mm": 0.275
+    },
+    "extrusion": {
+      "material_mm": 0.001
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        7200.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "G1"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  },
+  {
+    "layer_index": 7,
+    "z_height_mm": 1.8,
+    "motion": {
+      "bbox_mm": [
+        0.0,
+        0.0,
+        164.401,
+        119.153
+      ],
+      "path_length_mm": 0.228,
+      "travel_length_mm": 203.018
+    },
+    "extrusion": {
+      "material_mm": 0.003
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        600.0,
+        7200.0
+      ]
+    },
+    "commands_seen": [
+      "G0",
+      "G1",
+      "M104"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  },
+  {
+    "layer_index": 8,
+    "z_height_mm": 0.0,
+    "motion": {
+      "bbox_mm": null,
+      "path_length_mm": 0.0,
+      "travel_length_mm": 0.0
+    },
+    "extrusion": {
+      "material_mm": 0.0
+    },
+    "speed": {
+      "feedrate_mm_per_min": [
+        null,
+        null
+      ]
+    },
+    "commands_seen": [
+      "M104",
+      "M107",
+      "M140"
+    ],
+    "tolerances": {
+      "path_length_mm": 5,
+      "extrusion_mm": 0.5
+    }
+  }
+]

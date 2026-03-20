@@ -253,32 +253,104 @@ def run_cura_engine(stl_path, gcode_path):
     ]
     subprocess.run(cmd, check=True)
 
+def generate_experiment_config(stl_files, output_path):
+    experiments = []
+    print(stl_files)
+
+    for stl_file in stl_files:
+        name = stl_file.stem
+
+        experiments.append({
+            "name": f"{name}_experiment",
+            "gcode_path": f"references/g_code/{name}.gcode",
+            "reference_path": f"references/behavioral_references/{name}_br.json",
+            "machine_reference": "references/physical_references/physical_references.json",
+            "result_dir" : "results/f{name}_experiment",
+            "num_dts": 4,
+            "attacks": {
+                "2": "command_injection",
+                "3": "temperature_shock",
+                "4": "extrusion_flood"
+            },
+        })
+
+    config = {
+        "probability_sweep": [0.0, 0.1, 0.25, 0.5, 0.75, 1.0],
+        "seeds": [42],
+        "experiments": experiments
+    }
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w") as f:
+        json.dump(config, f, indent=2)
+
+    print(f"\n📄 Config generated: {output_path}")
+
+
 # MAIN
-
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-i", "--input", required=True, help="Input STL")
-    parser.add_argument("-o", "--output", required=True, help="Output dir")
-    args = parser.parse_args()
+    base_path = Path("references")
 
-    out = Path(args.output)
-    out.mkdir(parents=True, exist_ok=True)
+    stl_folder = base_path / "stl"
+    gcode_folder = base_path / "g_code"
+    ref_folder = base_path / "behavioral_references"
 
-    gcode_path = out / "baseline.gcode"
-    trust_path = out / "trust_reference.json"
+    # Create folders if not exist
+    gcode_folder.mkdir(parents=True, exist_ok=True)
+    ref_folder.mkdir(parents=True, exist_ok=True)
 
-    print("▶ Slicing STL with CuraEngine...")
-    run_cura_engine(Path(args.input), gcode_path)
+    stl_files = list(stl_folder.glob("*.stl"))
 
-    print("▶ Generating trust reference...")
-    trust = generate_trust_reference(gcode_path)
+    if not stl_files:
+        print("No STL files found in references/stl/")
+        return
 
-    with open(trust_path, "w") as f:
-        json.dump(trust, f, indent=2)
+    print(f"🔍 Found {len(stl_files)} STL files")
 
-    print("✔ DONE")
-    print(f"  ├─ {gcode_path}")
-    print(f"  └─ {trust_path}")
+    for stl_file in stl_files:
+        name = stl_file.stem
+
+        gcode_path = gcode_folder / f"{name}.gcode"
+        trust_path = ref_folder / f"{name}_br.json"
+
+        print(f"\n🚀 Processing: {name}")
+
+        # =========================
+        # STEP 1: STL → GCODE
+        # =========================
+        try:
+            print("  ▶ Generating G-code...")
+            run_cura_engine(stl_file, gcode_path)
+        except Exception as e:
+            print(f"  ❌ Cura failed for {name}: {e}")
+            continue
+
+        # =========================
+        # STEP 2: GCODE → TRUST REF
+        # =========================
+        try:
+            print("  ▶ Generating behavioral reference...")
+            trust = generate_trust_reference(gcode_path)
+
+            with open(trust_path, "w") as f:
+                json.dump(trust, f, indent=2)
+
+        except Exception as e:
+            print(f"  ❌ Reference generation failed for {name}: {e}")
+            continue
+
+        print(f"  ✅ Done: {name}")
+
+
+    generate_experiment_config(
+    stl_files,
+    Path("experiments") / "experiments_config.json"
+    )
+
+
+    print("\n🎯 ALL FILES PROCESSED SUCCESSFULLY")
+
 
 if __name__ == "__main__":
     main()

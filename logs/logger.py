@@ -10,16 +10,18 @@ class SimulationLogger:
     + CSV logs for quantitative analysis and plotting.
     """
 
-    def __init__(self, log_dir="logs", result_dir="results"):
-        # ---------- TEXT LOGS ----------
-        self.log_dir = Path(log_dir)
-        self.log_dir.mkdir(parents=True, exist_ok=True)
-        self._files = {}  # dt_id -> .log file handle
+    def __init__(self, base_dir="results/default"):
+        base_path = Path(base_dir)
 
-        # ---------- CSV RESULTS ----------
-        self.result_dir = Path(result_dir)
+        # TEXT LOGS
+        self.log_dir = base_path / "logs"
+        self.log_dir.mkdir(parents=True, exist_ok=True)
+        self._files = {}
+
+        # CSV RESULTS
+        self.result_dir = base_path
         self.result_dir.mkdir(parents=True, exist_ok=True)
-        self._csv_files = {}  # (category, dt_id) -> csv file handle
+        self._csv_files = {}
 
     # =========================================================
     # INTERNAL HELPERS
@@ -107,7 +109,7 @@ class SimulationLogger:
     # BASELINE LOGGING (CORRECTED)
     # =========================================================
 
-    def log_static_baseline(self, *, dt_id, seq, analysis, decision):
+    def log_cbsm_baseline(self, *, dt_id, seq, analysis, decision):
         """
         Logs the exact command evaluated by the static baseline.
         This avoids misattribution when attacks inject commands.
@@ -124,13 +126,13 @@ class SimulationLogger:
         f.flush()
 
         # ---------- CSV ----------
-        self.log_static_baseline_csv(
+        self.log_cbsm_baseline_csv(
             dt_id=dt_id,
             seq=seq,
             decision=decision
         )
 
-    def log_ieee_baseline(self, *, dt_id, seq, score, decision):
+    def log_rsam_baseline(self, *, dt_id, seq, score, decision):
         f = self._get_file(dt_id)
 
         f.write(f"[SEQ {seq}] [IEEE-BASELINE]\n")
@@ -141,7 +143,7 @@ class SimulationLogger:
 
         # ---------- CSV ----------
         csv = self._get_csv(
-            category="ieee_baseline",
+            category="RSAM",
             dt_id=dt_id,
             header="seq,anomaly_score,decision"
         )
@@ -154,7 +156,7 @@ class SimulationLogger:
 
     def log_trust_csv(self, *, dt_id, seq, acc_cmd, acc_exec, trust, decision):
         f = self._get_csv(
-            category="trust",
+            category="ProposedMethod",
             dt_id=dt_id,
             header="seq,acc_cmd,acc_exec,trust,decision"
         )
@@ -167,9 +169,9 @@ class SimulationLogger:
         )
         f.flush()
 
-    def log_static_baseline_csv(self, *, dt_id, seq, decision):
+    def log_cbsm_baseline_csv(self, *, dt_id, seq, decision):
         f = self._get_csv(
-            category="static_baseline",
+            category="CBSM",
             dt_id=dt_id,
             header="seq,decision"
         )

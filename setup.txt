@@ -1,0 +1,91 @@
+=== Trust in 3D Printing — Experiment Setup ===
+
+Experiments:
+- cuboid_experiment
+- cylinder_experiment
+- flatplate_experiment
+
+General:
+- digital_twins_per_experiment: 4
+- random_seed: 42
+
+Attacks (mapping to DTs):
+- dt_1: benign (no attack)
+- dt_2: command_injection
+- dt_3: temperature_shock
+- dt_4: extrusion_flood
+
+Attack parameters (from experiments/experiments_config.json and attacks module):
+- Command Injection:
+	- injection_prob: 0.5 (50%)
+	- injected_commands: ["M221 S200", "G92 E1000", "M92 E2000"]
+	- seed: 42
+
+- Temperature Shock:
+	- injection_prob: 0.3 (30%)
+	- base_temp: 210°C
+	- delta: ±10°C (oscillates 200↔220°C)
+	- seed: 42
+
+- Extrusion Flood:
+	- injection_prob: 0.1 (10%)
+	- malicious_cmd: "G1 X0.1 Y0.1 E20 F600"
+	- seed: 42
+
+Trust model parameters (TrustLayer):
+- theta (decay factor): 0.6
+- alpha (mapping steepness): 3.0
+- omega (trust inertia): 0.4
+- w_cmd (weight for command/design consistency): 0.5
+- w_exec (weight for execution/physical consistency): 0.5
+- T_init (initial trust): 0.75
+- T_min (pause threshold): 0.5
+- adaptive: True (uses a lenient effective threshold during first 100 commands)
+
+Machine profile (references/physical_references/physical_references.json):
+- model: Ultimaker S5
+- max_feedrate_mm_per_min: 18000
+- max_acceleration_mm_s2: 3000
+- max_jerk_mm_s: 8.0
+- max_retraction_mm: 6.5
+- max_extrusion_per_mm: 0.12
+- max_e_rate_mm_s: 8.0
+- max_nozzle_temp_c: 280
+- max_temp_change_per_command: 15
+
+Baselines (CBSM and RSAM) settings and notes:
+- CBSM (Constraint-Based Safety Monitor):
+	- max_extrusion_per_cmd: 50.0 (very loose)
+	- max_temperature: 280°C
+	- dangerous commands blacklist (includes): M112, M999, M303, M502, M221, M92
+	- G92 E-reset suspicious threshold: E > 10.0 → BLOCK
+
+- RSAM (Runtime Statistical Anomaly Monitor):
+	- ewma_alpha: 0.9
+	- window_size: 10
+	- min_commands (burn-in): 20
+	- relative_thresh: 2.5 (σ multiplier)
+	- persistence_required: 3 (consecutive violations before alert)
+	- Monitors: normalized extrusion ratios (E / XY distance), temperature delta anomalies (alerts when mean_delta > 5°C with ≥3 samples)
+
+Implementation notes / important behaviors:
+- CommandValidator computes both acc_cmd (design intent deviation) and acc_exec (execution deviation). When no behavioral reference is available, acc_exec is still computed.
+- CommandAnalyzer tracks nozzle temperature across M104/M109 commands to detect thermal shocks; M104 S0 (heater shutdown) is exempted from thermal-shock false positives.
+- Trust update equation (for reference in paper):
+	S_cmd = θ·S_cmd + acc_cmd
+	c = 1 − exp(−α·S)
+	E = w_cmd·(1 − c_cmd) + w_exec·(1 − c_exec)
+	T = ω·T + (1 − ω)·E
+	Decision: PAUSE when T < effective_T_min (adaptive lowers this for first 100 commands)
+
+Notes for reproducibility:
+- experiments/experiments_config.json currently defines three experiments (cuboid, cylinder and flatplate) and uses seed 42 for determinism.
+- Behavioral references used are under references/behavioral_references/*.json (cuboid_br.json, cylinder_br.json, flatplate_br.json).
+- To reproduce runs, run the main script (see README) with the same config and ensure the environment uses Python 3.14 as in the project.
+
+Contact:
+- Repository: e:/Trust_in_3d_printing
+- Files of interest: `trust_layer/trust_layer.py`, `attacks/attacks.py`, `trust_layer/command_validator.py`, `baselines/CBSM/constraint_monitor.py`, `baselines/RSAM/run_time_anamoly_monitor.py`, `experiments/experiments_config.json`
+
+=== End of setup summary ===
+
