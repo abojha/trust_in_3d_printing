@@ -2,8 +2,14 @@
 
 A real-time trust enforcement framework for securing G-code execution in digital twin–managed additive manufacturing systems. The Trust Layer sits between the digital twin and the physical printer, evaluating every G-code command against immutable behavioral and physical references to detect attacks such as **command injection**, **temperature shock**, and **extrusion flooding**.
 
-The proposed method achieves **100% detection rate** with **zero false positives** across all attack types and print models, detecting attacks within **0–22 commands**.
+The proposed method achieves **complete detection rate** with **zero false positives** across all attack types and print models, detecting attacks within **0–22 commands**.
+## 🔗 Associated Paper
 
+This repository implements the framework described in:
+
+**“A Digital Twin Trust Framework for Secure G-Code Execution in Additive Manufacturing”**
+
+*(Add anonymous link or PDF here during submission)*
 ---
 
 ## Table of Contents
@@ -41,6 +47,17 @@ Every command is validated at both the **command level** (design-intent deviatio
 | DT-4 | Malicious | Extrusion flood (`G1 X0.1 Y0.1 E20 F600`) |
 
 ---
+
+
+## 🔄 Reproducibility Statement
+
+This repository enables full reproduction of all experimental results reported in the paper, including:
+
+- Trust score trajectories
+- Detection latency measurements
+- Baseline comparisons (CBSM, RSAM)
+
+All experiments are deterministic using a fixed random seed.
 
 ## Project Structure
 
@@ -96,6 +113,19 @@ trust_in_3d_printing/
 ```
 
 ---
+
+## 🔗 Mapping to Paper Sections
+
+| Paper Section | Code Module |
+|--------------|------------|
+| Reference Generation | `references/` |
+| Trust Evaluation | `trust_layer/` |
+| Attack Scenarios | `attacks/` |
+| Baselines | `baselines/` |
+| Experimental Setup | `simulation/` |
+| Results & Visualization | `plot/` |
+
+
 
 ## Prerequisites
 
@@ -261,6 +291,15 @@ All experiments and graphs complete!
 
 ---
 
+## 📊 Example Output
+
+The framework generates:
+
+- Trust trajectory plots
+- Detection latency comparisons
+- Abnormality accumulation timelines
+
+
 ## Configuration
 
 All experiment parameters are in `experiments/experiments_config.json`:
@@ -353,6 +392,14 @@ Decision: PAUSE if T < T_min
 *Latency ranges shown only for cases where detection occurred.
 
 ---
+
+## ⚠️ Limitations
+
+- Experiments are conducted in a simulated environment
+- No direct execution on physical hardware (future work)
+- Parameter sensitivity analysis is limited
+- CuraEngine integration is optional
+
 
 ## License
 
