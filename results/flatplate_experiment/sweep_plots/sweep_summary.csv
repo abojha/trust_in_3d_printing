@@ -1,0 +1,7 @@
+prob,Command Injection,Extrusion Flood,Temperature Shock
+0.0,,,
+0.1,3.0,22.0,14.0
+0.25,1.0,2.0,7.0
+0.5,1.0,0.0,10.0
+0.75,0.0,0.0,2.0
+1.0,0.0,0.0,2.0

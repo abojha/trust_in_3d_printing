@@ -35,7 +35,6 @@ scripts/
 
 # ---------- Experiment results (large generated outputs) ----------
 # Results contain ~435 CSVs + PNGs; regenerate with runner.sh
-results/
 
 # ---------- Log files ----------
 logs/*.log
