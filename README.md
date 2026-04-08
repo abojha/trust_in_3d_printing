@@ -1,4 +1,4 @@
-# Trust-Based Security Framework for 3D Printing Digital Twins
+# A Digital Twin Trust Framework for Secure G-Code Execution in Additive Manufacturing
 
 A real-time trust enforcement framework for securing G-code execution in digital twin–managed additive manufacturing systems. The Trust Layer sits between the digital twin and the physical printer, evaluating every G-code command against immutable behavioral and physical references to detect attacks such as **command injection**, **temperature shock**, and **extrusion flooding**.
 
