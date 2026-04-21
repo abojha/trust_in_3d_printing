@@ -441,20 +441,22 @@ def generate_sweep_plots(exp_name, attacks_map, probabilities, seeds):
         "extrusion_flood":    {"color": "#4CAF50", "marker": "^",  "ls": ":"},
     }
 
-    # ── Collect data ────────────────────────────────────────
-    attack_data = {}
+    # ── Collect data per-seed (and compute means) ───────────────────
+    # attack_data_per_seed: { attack: { seed: [lat_per_prob,...] } }
+    attack_data_per_seed = {}
+    attack_data_mean = {}
 
     for attack in attack_types:
         dt_id = ATTACK_DT.get(attack)
         if dt_id is None:
             continue
 
-        latencies_per_prob = []
+        # initialize per-seed lists
+        per_seed = {s: [] for s in seeds}
 
         for prob in probabilities:
-            seed_latencies = []
+            prob_label = f"{prob:.2f}".replace(".", "_")
             for seed in seeds:
-                prob_label = f"{prob:.2f}".replace(".", "_")
                 variant_folder = f"sweep_p{prob_label}_s{seed}"
                 variant_dir = exp_root / variant_folder
 
@@ -462,64 +464,225 @@ def generate_sweep_plots(exp_name, attacks_map, probabilities, seeds):
                     variant_dir / "ProposedMethod" / f"{dt_id}.csv",
                     {"PAUSE"}
                 )
-                seed_latencies.append(t_seq if t_seq is not None else float("nan"))
+                per_seed[seed].append(t_seq if t_seq is not None else float("nan"))
 
-            mean_lat = np.nanmean(seed_latencies) if any(
-                not np.isnan(v) for v in seed_latencies
-            ) else float("nan")
-            latencies_per_prob.append(mean_lat)
+        # compute mean across seeds for this attack (per-probability)
+        per_seed_arrs = [np.array(per_seed[s], dtype=float) for s in seeds]
+        # stack into 2D (n_seeds x n_probs) and compute nanmean along axis 0
+        if per_seed_arrs:
+            stacked = np.vstack(per_seed_arrs)
+            mean_per_prob = np.nanmean(stacked, axis=0)
+            # convert to python list with nan where appropriate
+            mean_list = [float(x) if not np.isnan(x) else float("nan") for x in mean_per_prob]
+        else:
+            mean_list = [float("nan")] * len(probabilities)
 
-        attack_data[attack] = latencies_per_prob
+        attack_data_per_seed[attack] = per_seed
+        attack_data_mean[attack] = mean_list
 
-    # ── Save summary CSV ────────────────────────────────────
+    # ── Save summary CSV (means across seeds) ───────────────────
     csv_rows = {"prob": probabilities}
     for attack in attack_types:
         nice = ATTACK_NICE.get(attack, attack)
-        csv_rows[nice] = attack_data.get(attack, [float("nan")] * len(probabilities))
+        csv_rows[nice] = attack_data_mean.get(attack, [float("nan")] * len(probabilities))
     summary_df = pd.DataFrame(csv_rows)
     csv_path = output_dir / "sweep_summary.csv"
     summary_df.to_csv(csv_path, index=False)
     print(f"[OK] Saved {csv_path}")
 
-    # ── Plot: Detection Latency vs Attack Probability ───────
-    fig, ax = plt.subplots(figsize=(9, 5))
+    # ── Plot: Detection Latency vs Attack Probability (MEAN across seeds) ─
+    #
+    # Layout: one subplot per attack type (rows) — lines NEVER overlap.
+    # Combined overlay also saved separately with log-scale y-axis.
+    # ─────────────────────────────────────────────────────────────────────
 
-    for attack in attack_types:
-        nice = ATTACK_NICE.get(attack, attack)
-        style = STYLES.get(attack, {"color": "gray", "marker": "x", "ls": "-"})
-        lats = attack_data.get(attack, [])
-
-        probs_arr = np.array(probabilities)
-        lats_arr = np.array(lats)
-        mask = ~np.isnan(lats_arr)
-
-        if mask.any():
-            ax.plot(probs_arr[mask], lats_arr[mask],
-                    marker=style["marker"], linestyle=style["ls"],
-                    color=style["color"], linewidth=2.5, markersize=10,
-                    label=nice, markeredgecolor="white", markeredgewidth=1)
-
-            # Value labels on each point
-            for p, l in zip(probs_arr[mask], lats_arr[mask]):
-                ax.annotate(f"{int(l)}", (p, l),
-                            textcoords="offset points", xytext=(0, 12),
-                            ha="center", fontsize=9, fontweight="bold")
-
-    ax.set_xlabel("Attack Probability", fontsize=13)
-    ax.set_ylabel("Detection Latency (Command Index)", fontsize=13)
-
+    probs_arr = np.array(probabilities)
     title_name = exp_name.replace("_", " ").title()
-    ax.set_title(f"{title_name}\nDetection Latency vs Attack Probability",
-                 fontsize=14, fontweight="bold")
-    ax.set_xticks(probabilities)
-    ax.legend(fontsize=11)
-    ax.grid(alpha=0.3)
+
+    # ── (A) Separate subplot per attack ─────────────────────────────────
+    n_attacks = len(attack_types)
+    fig, axes = plt.subplots(n_attacks, 1, figsize=(14, 3.2 * n_attacks),
+                             sharex=True)
+    if n_attacks == 1:
+        axes = [axes]
+
+    for idx, attack in enumerate(attack_types):
+        ax = axes[idx]
+        nice = ATTACK_NICE.get(attack, attack)
+        style = STYLES.get(attack, {"color": "gray", "marker": "o", "ls": "-"})
+        mean_lats = np.array(
+            attack_data_mean.get(attack, [float("nan")] * len(probabilities)),
+            dtype=float)
+
+        # min-max band from per-seed data
+        per_seed_map = attack_data_per_seed.get(attack, {})
+        if per_seed_map:
+            seed_arrs = [np.array(per_seed_map[s], dtype=float) for s in seeds]
+            stacked = np.vstack(seed_arrs)
+            min_arr = np.nanmin(stacked, axis=0)
+            max_arr = np.nanmax(stacked, axis=0)
+        else:
+            min_arr = max_arr = mean_lats.copy()
+
+        mask = ~np.isnan(mean_lats)
+        if mask.any():
+            valid_min = np.where(np.isnan(min_arr), mean_lats, min_arr)
+            valid_max = np.where(np.isnan(max_arr), mean_lats, max_arr)
+
+            ax.fill_between(probs_arr[mask], valid_min[mask], valid_max[mask],
+                            color=style["color"], alpha=0.15, label="Seed range")
+            ax.plot(probs_arr[mask], mean_lats[mask],
+                    marker=style.get("marker", "o"),
+                    linestyle=style.get("ls", "-"),
+                    color=style["color"], linewidth=2.4, markersize=7,
+                    markeredgecolor="white", markeredgewidth=0.8,
+                    label=f"Mean ({nice})")
+
+            # annotate EVERY valid point with its value
+            valid_idx = np.where(mask)[0]
+            for ki in valid_idx:
+                ax.annotate(f"{mean_lats[ki]:.0f}",
+                            xy=(probs_arr[ki], mean_lats[ki]),
+                            textcoords="offset points", xytext=(0, 10),
+                            ha="center", fontsize=7, fontweight="bold",
+                            color=style["color"],
+                            bbox=dict(boxstyle="round,pad=0.12",
+                                      fc="white", ec=style["color"],
+                                      alpha=0.7, lw=0.4))
+
+        ax.set_ylabel("Latency\n(cmd index)", fontsize=10)
+        ax.set_title(nice, fontsize=12, fontweight="bold", color=style["color"],
+                     loc="left")
+        ax.legend(fontsize=9, loc="upper right", framealpha=0.8)
+        ax.grid(alpha=0.25)
+        # nice y-limits with headroom
+        yvals = mean_lats[mask] if mask.any() else np.array([0])
+        y_top = max(np.nanmax(yvals) * 1.25, 1)
+        ax.set_ylim(-0.5, y_top)
+
+    axes[-1].set_xlabel("Attack Probability", fontsize=12)
+    axes[-1].set_xticks(probabilities)
+    axes[-1].set_xticklabels([f"{p:.2f}" for p in probabilities],
+                             fontsize=7, rotation=45, ha="right")
+    fig.suptitle(f"{title_name}\nDetection Latency vs Attack Probability",
+                 fontsize=14, fontweight="bold", y=1.01)
     fig.tight_layout()
 
     out_path = output_dir / "detection_latency_vs_attack_prob.png"
-    fig.savefig(out_path, dpi=DPI)
+    fig.savefig(out_path, dpi=DPI, bbox_inches="tight")
     plt.close(fig)
     print(f"[OK] Saved {out_path}")
+
+    # ── (B) Combined overlay with LOG y-axis (handles huge range) ───────
+    fig, ax = plt.subplots(figsize=(10, 5))
+
+    for i, attack in enumerate(attack_types):
+        nice = ATTACK_NICE.get(attack, attack)
+        style = STYLES.get(attack, {"color": "gray", "marker": "o", "ls": "-"})
+        mean_lats = np.array(
+            attack_data_mean.get(attack, [float("nan")] * len(probabilities)),
+            dtype=float)
+        # shift zeros to 0.5 so log scale works
+        plot_lats = np.where(mean_lats == 0, 0.5, mean_lats)
+        mask = ~np.isnan(mean_lats)
+        if mask.any():
+            ax.plot(probs_arr[mask], plot_lats[mask],
+                    marker=style.get("marker", "o"),
+                    linestyle=style.get("ls", "-"),
+                    color=style["color"], linewidth=2.5, markersize=8,
+                    label=nice, markeredgecolor="white", markeredgewidth=0.9)
+
+    ax.set_yscale("log")
+    ax.set_xlabel("Attack Probability", fontsize=13)
+    ax.set_ylabel("Detection Latency (log scale, cmd index)", fontsize=12)
+    ax.set_title(f"{title_name}\nDetection Latency vs Attack Probability (All Attacks)",
+                 fontsize=14, fontweight="bold")
+    ax.set_xticks([p for p in probabilities if p * 100 % 10 == 0]
+                  if len(probabilities) > 12 else probabilities)
+    if len(probabilities) > 12:
+        ax.tick_params(axis="x", rotation=45)
+    ax.legend(fontsize=11)
+    ax.grid(alpha=0.3, which="both")
+    fig.tight_layout()
+
+    out_combined = output_dir / "detection_latency_vs_attack_prob_combined_log.png"
+    fig.savefig(out_combined, dpi=DPI, bbox_inches="tight")
+    plt.close(fig)
+    print(f"[OK] Saved {out_combined}")
+
+    # ── Per-seed plots (one PNG per seed, subplot per attack) ─────────
+    for seed in seeds:
+        fig, axes = plt.subplots(n_attacks, 1,
+                                 figsize=(14, 3.2 * n_attacks), sharex=True)
+        if n_attacks == 1:
+            axes = [axes]
+
+        any_plotted = False
+        for idx, attack in enumerate(attack_types):
+            ax = axes[idx]
+            nice = ATTACK_NICE.get(attack, attack)
+            style = STYLES.get(attack, {"color": "gray", "marker": "o", "ls": "-"})
+            per_seed_lats = attack_data_per_seed.get(attack, {}).get(seed, [])
+
+            if not per_seed_lats:
+                ax.text(0.5, 0.5, "No data", transform=ax.transAxes,
+                        ha="center", va="center", fontsize=12, color="gray")
+                ax.set_title(nice, fontsize=12, fontweight="bold",
+                             color=style["color"], loc="left")
+                continue
+
+            lats_arr = np.array(per_seed_lats, dtype=float)
+            mask = ~np.isnan(lats_arr)
+
+            if mask.any():
+                any_plotted = True
+                ax.plot(probs_arr[mask], lats_arr[mask],
+                        marker=style.get("marker", "o"),
+                        linestyle=style.get("ls", "-"),
+                        color=style["color"], linewidth=2.4, markersize=7,
+                        label=nice, markeredgecolor="white",
+                        markeredgewidth=0.8, alpha=0.95)
+
+                # annotate EVERY valid point with its value
+                valid_idx = np.where(mask)[0]
+                for ki in valid_idx:
+                    ax.annotate(f"{int(lats_arr[ki])}",
+                                xy=(probs_arr[ki], lats_arr[ki]),
+                                textcoords="offset points", xytext=(0, 10),
+                                ha="center", fontsize=7, fontweight="bold",
+                                color=style["color"],
+                                bbox=dict(boxstyle="round,pad=0.12",
+                                          fc="white", ec=style["color"],
+                                          alpha=0.7, lw=0.4))
+
+                yvals = lats_arr[mask]
+                y_top = max(np.nanmax(yvals) * 1.25, 1)
+                ax.set_ylim(-0.5, y_top)
+
+            ax.set_ylabel("Latency\n(cmd index)", fontsize=10)
+            ax.set_title(nice, fontsize=12, fontweight="bold",
+                         color=style["color"], loc="left")
+            ax.legend(fontsize=9, loc="upper right", framealpha=0.8)
+            ax.grid(alpha=0.25)
+
+        if not any_plotted:
+            plt.close(fig)
+            print(f"[WARN] No per-seed detection data for seed {seed}; skipping.")
+            continue
+
+        axes[-1].set_xlabel("Attack Probability", fontsize=12)
+        axes[-1].set_xticks(probabilities)
+        axes[-1].set_xticklabels([f"{p:.2f}" for p in probabilities],
+                                 fontsize=7, rotation=45, ha="right")
+        fig.suptitle(f"{title_name} — Seed {seed}\n"
+                     f"Detection Latency vs Attack Probability",
+                     fontsize=14, fontweight="bold", y=1.01)
+        fig.tight_layout()
+
+        seed_out = output_dir / f"detection_latency_vs_attack_prob_seed_{seed}.png"
+        fig.savefig(seed_out, dpi=DPI, bbox_inches="tight")
+        plt.close(fig)
+        print(f"[OK] Saved {seed_out}")
 
     print(f"Sweep graph saved to: {output_dir}/")
 
