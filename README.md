@@ -3,13 +3,6 @@
 A real-time trust enforcement framework for securing G-code execution in digital twin–managed additive manufacturing systems. The Trust Layer sits between the digital twin and the physical printer, evaluating every G-code command against immutable behavioral and physical references to detect attacks such as **command injection**, **temperature shock**, and **extrusion flooding**.
 
 The proposed method achieves **complete detection rate** with **zero false positives** across all attack types and print models, detecting attacks within **0–22 commands**.
-
-## 📝 Latest Update
-
-**Commit:** `2a6ae79` - Update experimental results and configuration
-- **84 files changed** across experimental results and configuration
-- Latest experimental runs and plots generated
-- All baseline comparisons (CBSM, RSAM) included
 ## 🔗 Associated Paper
 
 This repository implements the framework described in:
@@ -64,7 +57,7 @@ This repository enables full reproduction of all experimental results reported i
 - Detection latency measurements
 - Baseline comparisons (CBSM, RSAM)
 
-All experiments are deterministic using a fixed random seed.
+All experiments are deterministic using fixed random seeds (`42`, `43`, `7`, `999`, `2024`).
 
 ## Project Structure
 
@@ -157,8 +150,8 @@ The `runner.sh` script will:
 1. Create a Python virtual environment (`.venv`)
 2. Install all dependencies from `requirements.txt`
 3. *(Optional)* Run the Cura slicer pipeline — **will skip gracefully if CuraEngine is not installed**
-4. Run all 18 experiments (3 models × 6 attack probabilities)
-5. Generate all plots
+4. Run all **315 experiments** (3 models × 21 attack probabilities × 5 seeds)
+5. Generate all plots (per-variant + cross-probability sweep comparisons)
 
 ---
 
@@ -211,7 +204,9 @@ Or simply:
 python main.py
 ```
 
-This runs **18 experiment variants** (3 print models × 6 attack probabilities), each with 4 digital twins. Total: **72 simulation runs**.
+This runs **315 experiment variants** (3 print models × 21 attack probabilities × 5 seeds), each with 4 digital twins. Total: **1,260 simulation runs**.
+
+> **Note:** A full run may take several hours. To run a quick test, edit `experiments/experiments_config.json` to use fewer probabilities and seeds.
 
 ---
 
@@ -238,7 +233,7 @@ After a successful run, the `results/` directory will contain:
 ```
 results/
 ├── cuboid_experiment/
-│   ├── sweep_p0_00_s42/          # p=0.0 (no attacks — baseline)
+│   ├── sweep_p0_00_s42/          # p=0.0, seed=42 (no attacks — baseline)
 │   │   ├── ProposedMethod/
 │   │   │   ├── dt_1.csv          # Trust scores for benign DT
 │   │   │   ├── dt_2.csv          # Trust scores for command injection DT
@@ -256,18 +251,23 @@ results/
 │   │       ├── accusation_timeline.png
 │   │       ├── detection_latency_comparison.png
 │   │       └── dt_*_trust_trajectory.png
-│   ├── sweep_p0_10_s42/
-│   ├── sweep_p0_25_s42/
-│   ├── sweep_p0_50_s42/
-│   ├── sweep_p0_75_s42/
-│   ├── sweep_p1_00_s42/
+│   ├── sweep_p0_05_s42/          # 21 probabilities × 5 seeds = 105 folders per model
+│   ├── sweep_p0_05_s43/
+│   ├── ...
+│   ├── sweep_p1_00_s2024/
 │   └── sweep_plots/              # Cross-probability comparison plots
-│       └── detection_latency_vs_attack_prob.png
+│       ├── detection_latency_vs_attack_prob.png
+│       ├── detection_latency_vs_attack_prob_seed_42.png
+│       ├── detection_latency_vs_attack_prob_seed_43.png
+│       ├── detection_latency_vs_attack_prob_seed_7.png
+│       ├── detection_latency_vs_attack_prob_seed_999.png
+│       ├── detection_latency_vs_attack_prob_seed_2024.png
+│       └── detection_latency_vs_attack_prob_combined_log.png
 ├── cylinder_experiment/          # Same structure
 └── flatplate_experiment/         # Same structure
 ```
 
-**Expected totals:** ~225 CSV files, ~146 PNG plots.
+**Expected totals:** ~3,780 CSV files, ~3,465 PNG plots, ~945 log files.
 
 ### Console Output
 
@@ -278,17 +278,17 @@ You will see progress like:
   Experiment: cuboid_experiment
   Experiment: cylinder_experiment
   Experiment: flatplate_experiment
-  Probabilities: [0.0, 0.1, 0.25, 0.5, 0.75, 1.0]
-  Seeds:         [42]
-  Total runs:    18
+  Probabilities: [0.0, 0.05, 0.1, 0.15, ..., 0.95, 1.0]
+  Seeds:         [42, 43, 7, 999, 2024]
+  Total runs:    315
 ============================================================
-[1/18] cuboid_experiment prob=0.0 seed=42
+[1/315] cuboid_experiment prob=0.0 seed=42
   Done: sweep_p0_00_s42
-[2/18] cuboid_experiment prob=0.1 seed=42
-  Done: sweep_p0_10_s42
+[2/315] cuboid_experiment prob=0.0 seed=43
+  Done: sweep_p0_00_s43
 ...
-[18/18] flatplate_experiment prob=1.0 seed=42
-  Done: sweep_p1_00_s42
+[315/315] flatplate_experiment prob=1.0 seed=2024
+  Done: sweep_p1_00_s2024
 
 ============================================================
   Generating sweep comparison graphs...
@@ -313,8 +313,8 @@ All experiment parameters are in `experiments/experiments_config.json`:
 
 ```json
 {
-  "probability_sweep": [0.0, 0.1, 0.25, 0.5, 0.75, 1.0],
-  "seeds": [42],
+  "probability_sweep": [0.0, 0.05, 0.1, 0.15, 0.20, 0.25, ..., 0.95, 1.0],
+  "seeds": [42, 43, 7, 999, 2024],
   "experiments": [
     {
       "name": "cuboid_experiment",
