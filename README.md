@@ -3,6 +3,13 @@
 A real-time trust enforcement framework for securing G-code execution in digital twin–managed additive manufacturing systems. The Trust Layer sits between the digital twin and the physical printer, evaluating every G-code command against immutable behavioral and physical references to detect attacks such as **command injection**, **temperature shock**, and **extrusion flooding**.
 
 The proposed method achieves **complete detection rate** with **zero false positives** across all attack types and print models, detecting attacks within **0–22 commands**.
+
+## 📝 Latest Update
+
+**Commit:** `2a6ae79` - Update experimental results and configuration
+- **84 files changed** across experimental results and configuration
+- Latest experimental runs and plots generated
+- All baseline comparisons (CBSM, RSAM) included
 ## 🔗 Associated Paper
 
 This repository implements the framework described in:
