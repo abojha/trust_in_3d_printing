@@ -386,27 +386,6 @@ Decision: PAUSE if T < T_min
 
 ---
 
-## Key Results
-
-| Metric | Proposed | CBSM | RSAM |
-|--------|----------|------|------|
-| False Positive Rate | **0%** | 0% | 0% |
-| Overall Detection Rate | **100%** | 33% | 47% |
-| Latency Range (commands) | **0–22** | 0–3* | 21–136* |
-| Enforcement Action | PAUSE | BLOCK | ALERT only |
-
-*Latency ranges shown only for cases where detection occurred.
-
----
-
-## ⚠️ Limitations
-
-- Experiments are conducted in a simulated environment
-- No direct execution on physical hardware (future work)
-- Parameter sensitivity analysis is limited
-- CuraEngine integration is optional
-
-
 ## License
 
 This project is part of academic research on trust-based security for additive manufacturing systems.
