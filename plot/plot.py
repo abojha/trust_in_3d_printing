@@ -433,6 +433,9 @@ def generate_sweep_plots(exp_name, attacks_map, probabilities, seeds):
     output_dir = exp_root / "sweep_plots"
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    step = probabilities[1] - probabilities[0] if len(probabilities) > 1 else 0
+    prob_tag = f"{min(probabilities):.2f}_to_{max(probabilities):.2f}_step{step:.2f}_n{len(probabilities)}"
+
     attack_types = sorted(set(attacks_map.values()))
 
     STYLES = {
@@ -486,7 +489,7 @@ def generate_sweep_plots(exp_name, attacks_map, probabilities, seeds):
         nice = ATTACK_NICE.get(attack, attack)
         csv_rows[nice] = attack_data_mean.get(attack, [float("nan")] * len(probabilities))
     summary_df = pd.DataFrame(csv_rows)
-    csv_path = output_dir / "sweep_summary.csv"
+    csv_path = output_dir / f"sweep_summary_{prob_tag}.csv"
     summary_df.to_csv(csv_path, index=False)
     print(f"[OK] Saved {csv_path}")
 
@@ -568,7 +571,7 @@ def generate_sweep_plots(exp_name, attacks_map, probabilities, seeds):
                  fontsize=14, fontweight="bold", y=1.01)
     fig.tight_layout()
 
-    out_path = output_dir / "detection_latency_vs_attack_prob.png"
+    out_path = output_dir / f"detection_latency_vs_attack_prob_{prob_tag}.png"
     fig.savefig(out_path, dpi=DPI, bbox_inches="tight")
     plt.close(fig)
     print(f"[OK] Saved {out_path}")
@@ -605,7 +608,7 @@ def generate_sweep_plots(exp_name, attacks_map, probabilities, seeds):
     ax.grid(alpha=0.3, which="both")
     fig.tight_layout()
 
-    out_combined = output_dir / "detection_latency_vs_attack_prob_combined_log.png"
+    out_combined = output_dir / f"detection_latency_vs_attack_prob_combined_log_{prob_tag}.png"
     fig.savefig(out_combined, dpi=DPI, bbox_inches="tight")
     plt.close(fig)
     print(f"[OK] Saved {out_combined}")
@@ -679,7 +682,7 @@ def generate_sweep_plots(exp_name, attacks_map, probabilities, seeds):
                      fontsize=14, fontweight="bold", y=1.01)
         fig.tight_layout()
 
-        seed_out = output_dir / f"detection_latency_vs_attack_prob_seed_{seed}.png"
+        seed_out = output_dir / f"detection_latency_vs_attack_prob_seed_{seed}_{prob_tag}.png"
         fig.savefig(seed_out, dpi=DPI, bbox_inches="tight")
         plt.close(fig)
         print(f"[OK] Saved {seed_out}")

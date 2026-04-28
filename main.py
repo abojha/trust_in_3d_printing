@@ -116,6 +116,22 @@ def run_all_experiments(config_path="experiments/experiments_config.json"):
             probabilities=probabilities,
             seeds=seeds,
         )
+        generate_sweep_plots(
+            exp_name=exp["name"],
+            attacks_map=exp["attacks"],
+            probabilities=[0.0,
+            0.1,
+            0.20,
+            0.30,
+            0.40,
+            0.50,
+            0.60,
+            0.70,
+            0.80,
+            0.90,
+            1.0],
+            seeds=seeds,
+        )
 
     print("")
     print("All experiments and graphs complete!")
