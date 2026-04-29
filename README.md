@@ -370,7 +370,7 @@ Decision: PAUSE if T < T_min
 - EWMA-based anomaly detection (α=0.9, window=10)
 - Requires 20-command warm-up (burn-in)
 - Persistence: 3 consecutive violations before alert
-- **Limitation:** Misses command injection; slow detection (47% overall)
+- **Limitation:** Misses command injection; slow detection (57% overall)
 
 ---
 
