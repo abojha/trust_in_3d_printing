@@ -1,6 +1,6 @@
 ============================================================
 DT-4 SIMULATION LOG
-START TIME: 2026-04-16 21:14:40.675573
+START TIME: 2026-04-29 21:22:57.584126
 ============================================================
 
 [SEQ 0] [LAYER INIT]
@@ -156173,7 +156173,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 11155] [LAYER 9]
+[SEQ 11155] [LAYER 8]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -156187,7 +156187,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 11156] [LAYER 9]
+[SEQ 11156] [LAYER 8]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -171517,7 +171517,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 12251] [LAYER 10]
+[SEQ 12251] [LAYER 9]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -171531,7 +171531,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 12252] [LAYER 10]
+[SEQ 12252] [LAYER 9]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -186847,7 +186847,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 13346] [LAYER 11]
+[SEQ 13346] [LAYER 10]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -186861,7 +186861,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 13347] [LAYER 11]
+[SEQ 13347] [LAYER 10]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -202177,7 +202177,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 14441] [LAYER 12]
+[SEQ 14441] [LAYER 11]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -202191,7 +202191,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 14442] [LAYER 12]
+[SEQ 14442] [LAYER 11]
 CMD      : G1 X0.1 Y0.1 E20 F600
 TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -217563,9 +217563,37 @@ DECISION : ALLOW
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
+[SEQ 15540] [LAYER 12]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
+DECISION : PAUSE
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 15540] [STATIC-BASELINE]
+CMD      : G1 | effects={'dx': 0.0, 'dy': 0.0, 'dz': 0.0, 'de': 0.0, 'xy_dist': 0.0, 'params': {'G': 1.0, 'X': 0.1, 'Y': 0.1, 'E': 20.0, 'F': 600.0}}
+DECISION : ALLOW
+------------------------------------------------------------
+[SEQ 15540] [IEEE-BASELINE]
+SCORE    : anomaly_score=0.000
+DECISION : ALLOW
+------------------------------------------------------------
+[SEQ 15541] [LAYER 12]
+CMD      : G1 X0.1 Y0.1 E20 F600
+TRUST    : acc_cmd=0.860 | acc_exec=1.000 | trust=0.001
+DECISION : PAUSE
+MACHINE  : Machine-4
+------------------------------------------------------------
+[SEQ 15541] [STATIC-BASELINE]
+CMD      : G1 | effects={'dx': 0.0, 'dy': 0.0, 'dz': 0.0, 'de': 0.0, 'xy_dist': 0.0, 'params': {'G': 1.0, 'X': 0.1, 'Y': 0.1, 'E': 20.0, 'F': 600.0}}
+DECISION : ALLOW
+------------------------------------------------------------
+[SEQ 15541] [IEEE-BASELINE]
+SCORE    : anomaly_score=0.000
+DECISION : ALLOW
+------------------------------------------------------------
 
 ============================================================
 DT-4 FINISHED
 FINAL TRUST: 0.001
-END TIME  : 2026-04-16 21:14:54.725655
+END TIME  : 2026-04-29 21:23:07.701214
 ============================================================

@@ -119,7 +119,7 @@ def run_all_experiments(config_path="experiments/experiments_config.json"):
         generate_sweep_plots(
             exp_name=exp["name"],
             attacks_map=exp["attacks"],
-            probabilities=[0.0,
+            probabilities=[
             0.1,
             0.20,
             0.30,

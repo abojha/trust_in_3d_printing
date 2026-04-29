@@ -1,6 +1,6 @@
 ============================================================
 DT-2 SIMULATION LOG
-START TIME: 2026-04-16 21:15:20.658272
+START TIME: 2026-04-29 21:23:34.735762
 ============================================================
 
 [SEQ 0] [LAYER INIT]
@@ -156173,7 +156173,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 11155] [LAYER 9]
+[SEQ 11155] [LAYER 8]
 CMD      : G92 E1000
 TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -156187,7 +156187,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 11156] [LAYER 9]
+[SEQ 11156] [LAYER 8]
 CMD      : M92 E2000
 TRUST    : acc_cmd=1.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -171517,7 +171517,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 12251] [LAYER 10]
+[SEQ 12251] [LAYER 9]
 CMD      : M92 E2000
 TRUST    : acc_cmd=1.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -171531,7 +171531,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 12252] [LAYER 10]
+[SEQ 12252] [LAYER 9]
 CMD      : M92 E2000
 TRUST    : acc_cmd=1.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -186847,7 +186847,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 13346] [LAYER 11]
+[SEQ 13346] [LAYER 10]
 CMD      : M92 E2000
 TRUST    : acc_cmd=1.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -186861,7 +186861,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 13347] [LAYER 11]
+[SEQ 13347] [LAYER 10]
 CMD      : M92 E2000
 TRUST    : acc_cmd=1.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -202177,7 +202177,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 14441] [LAYER 12]
+[SEQ 14441] [LAYER 11]
 CMD      : G92 E1000
 TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -202191,7 +202191,7 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 14442] [LAYER 12]
+[SEQ 14442] [LAYER 11]
 CMD      : G92 E1000
 TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.001
 DECISION : PAUSE
@@ -217563,9 +217563,37 @@ DECISION : BLOCK
 SCORE    : anomaly_score=0.000
 DECISION : ALLOW
 ------------------------------------------------------------
+[SEQ 15540] [LAYER 12]
+CMD      : G92 E1000
+TRUST    : acc_cmd=0.000 | acc_exec=1.000 | trust=0.001
+DECISION : PAUSE
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 15540] [STATIC-BASELINE]
+CMD      : G92 | effects={'reset': {'G': 92.0, 'E': 1000.0}}
+DECISION : BLOCK
+------------------------------------------------------------
+[SEQ 15540] [IEEE-BASELINE]
+SCORE    : anomaly_score=0.000
+DECISION : ALLOW
+------------------------------------------------------------
+[SEQ 15541] [LAYER 12]
+CMD      : M92 E2000
+TRUST    : acc_cmd=1.000 | acc_exec=1.000 | trust=0.001
+DECISION : PAUSE
+MACHINE  : Machine-2
+------------------------------------------------------------
+[SEQ 15541] [STATIC-BASELINE]
+CMD      : M92 | effects={'M': 92.0, 'E': 2000.0}
+DECISION : BLOCK
+------------------------------------------------------------
+[SEQ 15541] [IEEE-BASELINE]
+SCORE    : anomaly_score=0.000
+DECISION : ALLOW
+------------------------------------------------------------
 
 ============================================================
 DT-2 FINISHED
 FINAL TRUST: 0.001
-END TIME  : 2026-04-16 21:15:31.551524
+END TIME  : 2026-04-29 21:23:45.178699
 ============================================================

@@ -260,11 +260,11 @@
         214.792,
         169.795
       ],
-      "path_length_mm": 3440.261,
-      "travel_length_mm": 482.437
+      "path_length_mm": 3444.039,
+      "travel_length_mm": 500.538
     },
     "extrusion": {
-      "material_mm": 43.142
+      "material_mm": 43.19
     },
     "speed": {
       "feedrate_mm_per_min": [
@@ -277,8 +277,8 @@
       "G1"
     ],
     "tolerances": {
-      "path_length_mm": 172.01305000000002,
-      "extrusion_mm": 4.3142000000000005
+      "path_length_mm": 172.20195,
+      "extrusion_mm": 4.319
     }
   },
   {

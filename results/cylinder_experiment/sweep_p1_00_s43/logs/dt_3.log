@@ -1,6 +1,6 @@
 ============================================================
 DT-3 SIMULATION LOG
-START TIME: 2026-04-16 21:14:23.390897
+START TIME: 2026-04-29 21:22:38.507261
 ============================================================
 
 [SEQ 0] [LAYER INIT]
@@ -156173,7 +156173,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 11155] [LAYER 9]
+[SEQ 11155] [LAYER 8]
 CMD      : M104 S200
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -156187,7 +156187,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 11156] [LAYER 9]
+[SEQ 11156] [LAYER 8]
 CMD      : M104 S220
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -171517,7 +171517,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 12251] [LAYER 10]
+[SEQ 12251] [LAYER 9]
 CMD      : M104 S200
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -171531,7 +171531,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 12252] [LAYER 10]
+[SEQ 12252] [LAYER 9]
 CMD      : M104 S220
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -186847,7 +186847,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 13346] [LAYER 11]
+[SEQ 13346] [LAYER 10]
 CMD      : M104 S220
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -186861,7 +186861,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 13347] [LAYER 11]
+[SEQ 13347] [LAYER 10]
 CMD      : M104 S200
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -202177,7 +202177,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 14441] [LAYER 12]
+[SEQ 14441] [LAYER 11]
 CMD      : M104 S200
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -202191,7 +202191,7 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
-[SEQ 14442] [LAYER 12]
+[SEQ 14442] [LAYER 11]
 CMD      : M104 S220
 TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
 DECISION : PAUSE
@@ -217563,9 +217563,37 @@ DECISION : ALLOW
 SCORE    : anomaly_score=20.000
 DECISION : ALLOW
 ------------------------------------------------------------
+[SEQ 15540] [LAYER 12]
+CMD      : M104 S220
+TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
+DECISION : PAUSE
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 15540] [STATIC-BASELINE]
+CMD      : M104 | effects={'M': 104.0, 'S': 220.0, 'prev_temp': 200.0}
+DECISION : ALLOW
+------------------------------------------------------------
+[SEQ 15540] [IEEE-BASELINE]
+SCORE    : anomaly_score=20.000
+DECISION : ALLOW
+------------------------------------------------------------
+[SEQ 15541] [LAYER 12]
+CMD      : M104 S200
+TRUST    : acc_cmd=0.000 | acc_exec=0.333 | trust=0.082
+DECISION : PAUSE
+MACHINE  : Machine-3
+------------------------------------------------------------
+[SEQ 15541] [STATIC-BASELINE]
+CMD      : M104 | effects={'M': 104.0, 'S': 200.0, 'prev_temp': 220.0}
+DECISION : ALLOW
+------------------------------------------------------------
+[SEQ 15541] [IEEE-BASELINE]
+SCORE    : anomaly_score=20.000
+DECISION : ALLOW
+------------------------------------------------------------
 
 ============================================================
 DT-3 FINISHED
 FINAL TRUST: 0.082
-END TIME  : 2026-04-16 21:14:33.993335
+END TIME  : 2026-04-29 21:22:49.608369
 ============================================================
